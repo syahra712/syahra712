@@ -102,13 +102,6 @@ A robust desktop application for secure file encryption and decryption using the
   *Google & Pakistan Freelancers Association (PAFLA)*  
   Comprehensive training in professional soft skills, communication, and workplace effectiveness.
 
----
-
-## 📈 GitHub Stats
-
-![Syed's GitHub Stats](https://github-readme-stats.vercel.app/api?username=syahra712&show_icons=true&theme=radical)
-
----
 
 ## 📫 Connect with Me
 
