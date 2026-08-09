@@ -1,7 +1,7 @@
 ## AI/ML Engineer · APM · Final Year @ Bahria University Karachi
 
 Building production-grade AI systems: retrieval pipelines, LLM agents, and data applications.
-Currently: Associate PM / AI Product Engineer @ [CodeAvenue](https://codeavenue.io)
+Currently: Associate PM / AI Product Engineer @ [VentureDive](https://pk.linkedin.com/company/venturedive)
 
 ---
 
