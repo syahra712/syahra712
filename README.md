@@ -63,8 +63,21 @@
 <!-- ══════════════════════════  STATS  ══════════════════════════ -->
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=syahra712&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=vue-dark&icon_color=1C3C3C&title_color=1C3C3C" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=syahra712&layout=compact&hide_border=true&langs_count=8&theme=vue-dark&title_color=1C3C3C" alt="Top languages"/>
+<!-- Self-hosted metrics card — generated daily by GitHub Actions, served from this repo (never rate-limited). -->
+<img src="https://raw.githubusercontent.com/syahra712/syahra712/main/metrics.svg" alt="GitHub metrics" width="100%"/>
+
+</div>
+
+---
+
+<!-- ══════════════════════════  SNAKE  ══════════════════════════ -->
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/syahra712/syahra712/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/syahra712/syahra712/output/github-snake.svg"/>
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/syahra712/syahra712/output/github-snake.svg"/>
+</picture>
 
 </div>
 
