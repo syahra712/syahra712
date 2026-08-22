@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" fill="none" role="img" aria-label="Syed Ahnaf Raza — Software Engineer and AI Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3fb950"/>
+      <stop offset="0.5" stop-color="#2f9e6f"/>
+      <stop offset="1" stop-color="#238636"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2530"/>
+      <stop offset="1" stop-color="#141b23"/>
+    </linearGradient>
+    <style>
+      .name  { font: 700 36px 'Segoe UI', Helvetica, Arial, sans-serif; fill:#f0f6fc; }
+      .role  { font: 600 18px 'Segoe UI', Helvetica, Arial, sans-serif; fill:#3fb950; letter-spacing:.3px; }
+      .sub   { font: 400 14px 'Segoe UI', Helvetica, Arial, sans-serif; fill:#8b949e; }
+      .num   { font: 700 26px 'Segoe UI', Helvetica, Arial, sans-serif; fill:#f0f6fc; }
+      .lbl   { font: 500 11px 'Segoe UI', Helvetica, Arial, sans-serif; fill:#8b949e; letter-spacing:.4px; }
+      .accn  { fill:#3fb950; }
+    </style>
+  </defs>
+
+  <!-- card -->
+  <rect x="1" y="1" width="898" height="268" rx="18" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
+  <!-- left accent bar -->
+  <rect x="1" y="1" width="7" height="268" rx="3" fill="url(#accent)"/>
+
+  <!-- header -->
+  <text x="44" y="62" class="name">Syed Ahnaf Raza</text>
+  <rect x="46" y="76" width="250" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="44" y="106" class="role">Software Engineer · AI Developer</text>
+  <text x="44" y="132" class="sub">PMO @ VentureDive  ·  RAG · LLM Agents · NLP · Data Pipelines  ·  Karachi, Pakistan</text>
+
+  <!-- stat tiles -->
+  <g>
+    <rect x="44"  y="164" width="188" height="80" rx="12" fill="url(#tile)" stroke="#30363d"/>
+    <text x="138" y="204" text-anchor="middle" class="num">41</text>
+    <text x="138" y="226" text-anchor="middle" class="lbl">PUBLIC REPOS</text>
+
+    <rect x="248" y="164" width="188" height="80" rx="12" fill="url(#tile)" stroke="#30363d"/>
+    <text x="342" y="204" text-anchor="middle" class="num accn">2</text>
+    <text x="342" y="226" text-anchor="middle" class="lbl">OSS PRs MERGED</text>
+
+    <rect x="452" y="164" width="208" height="80" rx="12" fill="url(#tile)" stroke="#30363d"/>
+    <text x="556" y="204" text-anchor="middle" class="num accn">122k+</text>
+    <text x="556" y="226" text-anchor="middle" class="lbl">⭐ STARS IMPACTED</text>
+
+    <rect x="676" y="164" width="180" height="80" rx="12" fill="url(#tile)" stroke="#30363d"/>
+    <text x="766" y="204" text-anchor="middle" class="num">3+</text>
+    <text x="766" y="226" text-anchor="middle" class="lbl">YEARS ON GITHUB</text>
+  </g>
+
+  <!-- corner mark -->
+  <text x="856" y="52" text-anchor="end" class="sub" opacity="0.6">@syahra712</text>
+</svg>

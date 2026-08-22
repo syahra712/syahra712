@@ -1,12 +1,11 @@
 <!-- ══════════════════════════  HEADER  ══════════════════════════ -->
 <div align="center">
 
-# Syed Ahnaf Raza
+<img src="https://raw.githubusercontent.com/syahra712/syahra712/main/assets/hero.svg" alt="Syed Ahnaf Raza — Software Engineer & AI Developer" width="100%"/>
 
-### AI/ML Engineer · Building production RAG, LLM agents & data pipelines
+<br/><br/>
 
-**Final year @ Bahria University Karachi** · Associate PM / AI Product Engineer @ [VentureDive](https://pk.linkedin.com/company/venturedive)
-📍 Karachi, Pakistan
+Software Engineer · **AI Developer** · PMO @ [VentureDive](https://pk.linkedin.com/company/venturedive) — building production RAG, LLM agents & data pipelines.
 
 <a href="https://syedahnafrazaportfolio-syed-ahnaf-razas-projects.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
@@ -57,20 +56,6 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
----
-
-<!-- ══════════════════════════  STATS  ══════════════════════════ -->
-<!-- ══════════════════════════  SNAKE  ══════════════════════════ -->
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/syahra712/syahra712/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/syahra712/syahra712/output/github-snake.svg"/>
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/syahra712/syahra712/output/github-snake.svg"/>
-</picture>
-
-</div>
 
 ---
 
