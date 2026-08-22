@@ -5,7 +5,7 @@
 
 <br/><br/>
 
-Software Engineer · **AI Developer** · PMO @ [VentureDive](https://pk.linkedin.com/company/venturedive) — building production RAG, LLM agents & data pipelines.
+Software Engineer · **AI Developer** · PMO @ [VentureDive](https://pk.linkedin.com/company/venturedive) . building production RAG, LLM agents & data pipelines.
 
 <a href="https://syedahnafrazaportfolio-syed-ahnaf-razas-projects.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
