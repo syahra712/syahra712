@@ -61,15 +61,6 @@
 ---
 
 <!-- ══════════════════════════  STATS  ══════════════════════════ -->
-<div align="center">
-
-<!-- Self-hosted metrics card — generated daily by GitHub Actions, served from this repo (never rate-limited). -->
-<img src="https://raw.githubusercontent.com/syahra712/syahra712/main/metrics.svg" alt="GitHub metrics" width="100%"/>
-
-</div>
-
----
-
 <!-- ══════════════════════════  SNAKE  ══════════════════════════ -->
 <div align="center">
 
