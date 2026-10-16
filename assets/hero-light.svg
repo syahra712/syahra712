@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" fill="none" role="img" aria-label="Syed Ahnaf Raza — AI Engineer and open-source contributor. 10 pull requests merged upstream, 59 in review, across 52 projects.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f6f8fa"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3fb950"/>
+      <stop offset="0.5" stop-color="#2f9e6f"/>
+      <stop offset="1" stop-color="#238636"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f6f8fa"/>
+    </linearGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#d0d7de" opacity="0.55"/>
+    </pattern>
+    <style>
+      .name  { font: 700 38px 'Segoe UI', Helvetica, Arial, sans-serif; fill:#1f2328; }
+      .role  { font: 600 18px 'Segoe UI', Helvetica, Arial, sans-serif; fill:#1a7f37; letter-spacing:.3px; }
+      .sub   { font: 400 14px 'Segoe UI', Helvetica, Arial, sans-serif; fill:#59636e; }
+      .mono  { font: 500 13px ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; fill:#59636e; }
+      .num   { font: 700 28px 'Segoe UI', Helvetica, Arial, sans-serif; fill:#1f2328; }
+      .lbl   { font: 600 10.5px 'Segoe UI', Helvetica, Arial, sans-serif; fill:#59636e; letter-spacing:.6px; }
+      .accn  { fill:#1a7f37; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:.35 } }
+    </style>
+  </defs>
+
+  <!-- card -->
+  <rect x="1" y="1" width="898" height="298" rx="18" fill="url(#bg)" stroke="#d0d7de" stroke-width="1.5"/>
+  <rect x="560" y="1" width="338" height="150" rx="18" fill="url(#grid)" opacity="0.8"/>
+  <rect x="1" y="1" width="7" height="298" rx="3" fill="url(#accent)"/>
+
+  <!-- header -->
+  <text x="44" y="64" class="name">Syed Ahnaf Raza</text>
+  <rect x="46" y="78" width="270" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="44" y="110" class="role">AI Engineer · Open-Source Contributor · PMO</text>
+  <text x="44" y="136" class="sub">RAG · LLM agents · NLP · Data pipelines · Python  ·  Karachi, Pakistan</text>
+
+  <!-- status line -->
+  <circle cx="50" cy="160" r="4" fill="#1a7f37" class="pulse"/>
+  <text x="62" y="165" class="mono">fixing bugs upstream in the Python &amp; AI/ML ecosystem</text>
+
+  <!-- stat tiles -->
+  <g>
+    <rect x="44"  y="190" width="192" height="80" rx="12" fill="url(#tile)" stroke="#d0d7de"/>
+    <text x="140" y="230" text-anchor="middle" class="num accn">10</text>
+    <text x="140" y="252" text-anchor="middle" class="lbl">PRs MERGED UPSTREAM</text>
+
+    <rect x="250" y="190" width="192" height="80" rx="12" fill="url(#tile)" stroke="#d0d7de"/>
+    <text x="346" y="230" text-anchor="middle" class="num accn">152k+</text>
+    <text x="346" y="252" text-anchor="middle" class="lbl">★ ON REPOS PATCHED</text>
+
+    <rect x="456" y="190" width="192" height="80" rx="12" fill="url(#tile)" stroke="#d0d7de"/>
+    <text x="552" y="230" text-anchor="middle" class="num">59</text>
+    <text x="552" y="252" text-anchor="middle" class="lbl">PRs IN REVIEW</text>
+
+    <rect x="662" y="190" width="194" height="80" rx="12" fill="url(#tile)" stroke="#d0d7de"/>
+    <text x="759" y="230" text-anchor="middle" class="num">52</text>
+    <text x="759" y="252" text-anchor="middle" class="lbl">PROJECTS CONTRIBUTED TO</text>
+  </g>
+
+  <text x="856" y="52" text-anchor="end" class="sub" opacity="0.6">@syahra712</text>
+</svg>
