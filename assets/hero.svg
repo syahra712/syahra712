@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" fill="none" role="img" aria-label="Syed Ahnaf Raza — AI Engineer and open-source contributor. 14 pull requests merged upstream, 68 in review, across 58 projects.">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" fill="none" role="img" aria-label="Syed Ahnaf Raza — AI Engineer and open-source contributor. 14 pull requests merged upstream, 69 in review, across 59 projects.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
@@ -55,11 +55,11 @@
     <text x="346" y="252" text-anchor="middle" class="lbl">★ ON REPOS PATCHED</text>
 
     <rect x="456" y="190" width="192" height="80" rx="12" fill="url(#tile)" stroke="#30363d"/>
-    <text x="552" y="230" text-anchor="middle" class="num">68</text>
+    <text x="552" y="230" text-anchor="middle" class="num">69</text>
     <text x="552" y="252" text-anchor="middle" class="lbl">PRs IN REVIEW</text>
 
     <rect x="662" y="190" width="194" height="80" rx="12" fill="url(#tile)" stroke="#30363d"/>
-    <text x="759" y="230" text-anchor="middle" class="num">58</text>
+    <text x="759" y="230" text-anchor="middle" class="num">59</text>
     <text x="759" y="252" text-anchor="middle" class="lbl">PROJECTS CONTRIBUTED TO</text>
   </g>
 
