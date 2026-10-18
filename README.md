@@ -23,14 +23,14 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284) in **getmail6/getmail6** · 2026-10-18
+**Latest merge:** [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) in **openfoodfacts/open-prices** · 2026-10-18
 <!-- latest ends -->
 
 <!-- merged starts -->
 | Project | ⭐ | Area | What I fixed |
 |---|:--:|---|---|
 | [**docling-project/docling**](https://github.com/docling-project/docling) | `69k` | document AI · VLMs | [Coerce MLX bfloat16 logprobs to float in VlmPredictionToken](https://github.com/docling-project/docling/pull/4005) |
-| [**BerriAI/litellm**](https://github.com/BerriAI/litellm) | `61k` | LLM gateway · billing | [Don't retire a completed batch from cost recovery while output_file_id is lagging](https://github.com/BerriAI/litellm/pull/37715) |
+| [**BerriAI/litellm**](https://github.com/BerriAI/litellm) | `62k` | LLM gateway · billing | [Don't retire a completed batch from cost recovery while output_file_id is lagging](https://github.com/BerriAI/litellm/pull/37715) |
 | [**sshuttle/sshuttle**](https://github.com/sshuttle/sshuttle) | `14k` | networking · firewalls | [pf exclusions ignored under a wider include since rules became quick](https://github.com/sshuttle/sshuttle/pull/1270)<br/>[Skip hostwatch when the server has no os.fork](https://github.com/sshuttle/sshuttle/pull/1271)<br/>[Keep the tunnel up when a DNS or UDP reply cannot be sent](https://github.com/sshuttle/sshuttle/pull/1273)<br/>[Drop the zone id of a link-local nameserver from nft rules](https://github.com/sshuttle/sshuttle/pull/1272) |
 | [**tox-dev/tox**](https://github.com/tox-dev/tox) | `4k` | Python test tooling | [Keep the packaging backend captured with --no-capture](https://github.com/tox-dev/tox/pull/4164) |
 | [**aboutcode-org/scancode-toolkit**](https://github.com/aboutcode-org/scancode-toolkit) | `2.6k` | license compliance | [Cap pluggy below 1.7.0](https://github.com/aboutcode-org/scancode-toolkit/pull/5364) |
@@ -38,14 +38,16 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**fossasia/voxbento**](https://github.com/fossasia/voxbento) | `1.5k` | web API · access control | [Scope admin transcript routes to the requested event](https://github.com/fossasia/voxbento/pull/813) |
 | [**apache/iceberg-python**](https://github.com/apache/iceberg-python) | `1.2k` | apache | [Preserve null maps when projecting a map of structs](https://github.com/apache/iceberg-python/pull/4118) |
 | [**mozilla/bugbug**](https://github.com/mozilla/bugbug) | `576` | agentic ai | [Keep full comment text when rendering Phabricator revisions](https://github.com/mozilla/bugbug/pull/7197) |
+| [**fortran-lang/fortls**](https://github.com/fortran-lang/fortls) | `345` | fortls | [Handle mixed quotes in find_paren_match](https://github.com/fortran-lang/fortls/pull/569) |
 | [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `168` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284) |
+| [**openfoodfacts/open-prices**](https://github.com/openfoodfacts/open-prices) | `110` | crowdsourcing | [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) |
 | [**pypa/distlib**](https://github.com/pypa/distlib) | `65` | Python packaging | [Use the Python-2.0.1 SPDX license identifier](https://github.com/pypa/distlib/pull/276) |
 | [**apache/solr-orbit**](https://github.com/apache/solr-orbit) | `3` | apache | [Build the Docker image on Python 3.13, inside requires-python](https://github.com/apache/solr-orbit/pull/126)<br/>[Page through collections with SolrClient.search in create-workload](https://github.com/apache/solr-orbit/pull/125)<br/>[Restore metrics.metrics_store_class so solr-orbit stop works again](https://github.com/apache/solr-orbit/pull/124) |
 <!-- merged ends -->
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 79 PRs across 63 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
+<summary><b>🕐 In review: 77 PRs across 61 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
 
 <br/>
 
@@ -53,7 +55,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 |---|:--:|---|
 | [microsoft/markitdown](https://github.com/microsoft/markitdown/pull/2302) | `191k` | Refactor ImageConverter to reuse llm_caption helper |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0/pull/7001) | `67k` | Dispatch add_embeddings on actual signature |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm/pull/45952) | `61k` | Route GPT-5.4+ function-tool calls through the Responses API |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm/pull/45952) | `62k` | Route GPT-5.4+ function-tool calls through the Responses API |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI/pull/8040) | `60k` | Opt-in deferred tool loading via Responses tool search |
 | [agno-agi/agno](https://github.com/agno-agi/agno/pull/9596) | `43k` | Chain exception causes in tool, model, and vectordb error paths |
 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy/pull/10227) | `39k` | Add sort_keys=True to tool call/result JSON serialization |
