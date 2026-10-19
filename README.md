@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) in **openfoodfacts/open-prices** · 2026-10-18
+**Latest merge:** [Convert Impala connection options given as strings to their real types](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1852) in **GoogleCloudPlatform/professional-services-data-validator** · 2026-10-19
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -36,18 +36,21 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**aboutcode-org/scancode-toolkit**](https://github.com/aboutcode-org/scancode-toolkit) | `2.6k` | license compliance | [Cap pluggy below 1.7.0](https://github.com/aboutcode-org/scancode-toolkit/pull/5364) |
 | [**cuthbertLab/music21**](https://github.com/cuthbertLab/music21) | `2.6k` |  | [(AI) Read MusicXML octave-change in transpose without diatonic](https://github.com/cuthbertLab/music21/pull/2086) |
 | [**fossasia/voxbento**](https://github.com/fossasia/voxbento) | `1.5k` | web API · access control | [Scope admin transcript routes to the requested event](https://github.com/fossasia/voxbento/pull/813) |
+| [**fossasia/veditor**](https://github.com/fossasia/veditor) | `1.5k` |  | [Show app INFO logs so the dev verification link is visible](https://github.com/fossasia/veditor/pull/317) |
 | [**apache/iceberg-python**](https://github.com/apache/iceberg-python) | `1.2k` | apache | [Preserve null maps when projecting a map of structs](https://github.com/apache/iceberg-python/pull/4118) |
 | [**mozilla/bugbug**](https://github.com/mozilla/bugbug) | `576` | agentic ai | [Keep full comment text when rendering Phabricator revisions](https://github.com/mozilla/bugbug/pull/7197) |
+| [**GoogleCloudPlatform/professional-services-data-validator**](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | `529` |  | [Convert Impala connection options given as strings to their real types](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1852) |
 | [**fortran-lang/fortls**](https://github.com/fortran-lang/fortls) | `345` | fortls | [Handle mixed quotes in find_paren_match](https://github.com/fortran-lang/fortls/pull/569) |
 | [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `168` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284) |
 | [**openfoodfacts/open-prices**](https://github.com/openfoodfacts/open-prices) | `110` | crowdsourcing | [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) |
 | [**pypa/distlib**](https://github.com/pypa/distlib) | `65` | Python packaging | [Use the Python-2.0.1 SPDX license identifier](https://github.com/pypa/distlib/pull/276) |
+| [**konflux-ci/rpm-lockfile-prototype**](https://github.com/konflux-ci/rpm-lockfile-prototype) | `16` |  | [Handle registry port numbers in image specs](https://github.com/konflux-ci/rpm-lockfile-prototype/pull/184) |
 | [**apache/solr-orbit**](https://github.com/apache/solr-orbit) | `3` | apache | [Build the Docker image on Python 3.13, inside requires-python](https://github.com/apache/solr-orbit/pull/126)<br/>[Page through collections with SolrClient.search in create-workload](https://github.com/apache/solr-orbit/pull/125)<br/>[Restore metrics.metrics_store_class so solr-orbit stop works again](https://github.com/apache/solr-orbit/pull/124) |
 <!-- merged ends -->
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 77 PRs across 61 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
+<summary><b>🕐 In review: 72 PRs across 58 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
 
 <br/>
 
