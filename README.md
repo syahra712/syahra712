@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [(AI) Order TimespanTree.allParts() by the source score](https://github.com/cuthbertLab/music21/pull/2089) in **cuthbertLab/music21** · 2026-10-19
+**Latest merge:** [Add a make licenses target that generates THIRD_PARTY.md](https://github.com/apache/solr-orbit/pull/133) in **apache/solr-orbit** · 2026-10-20
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -40,26 +40,26 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**apache/iceberg-python**](https://github.com/apache/iceberg-python) | `1.2k` | apache | [Preserve null maps when projecting a map of structs](https://github.com/apache/iceberg-python/pull/4118) |
 | [**pymc-devs/pytensor**](https://github.com/pymc-devs/pytensor) | `647` | ai | [Index 0-d MakeVector inputs instead of calling .item() in numba](https://github.com/pymc-devs/pytensor/pull/2503) |
 | [**mozilla/bugbug**](https://github.com/mozilla/bugbug) | `576` | agentic ai | [Keep full comment text when rendering Phabricator revisions](https://github.com/mozilla/bugbug/pull/7197) |
-| [**GoogleCloudPlatform/professional-services-data-validator**](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | `530` |  | [Convert Impala connection options given as strings to their real types](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1852) |
-| [**fortran-lang/fortls**](https://github.com/fortran-lang/fortls) | `345` | fortls | [Handle mixed quotes in find_paren_match](https://github.com/fortran-lang/fortls/pull/569) |
+| [**GoogleCloudPlatform/professional-services-data-validator**](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | `531` |  | [Convert Impala connection options given as strings to their real types](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1852) |
+| [**fortran-lang/fortls**](https://github.com/fortran-lang/fortls) | `346` | fortls | [Handle mixed quotes in find_paren_match](https://github.com/fortran-lang/fortls/pull/569) |
 | [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `168` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284) |
 | [**openfoodfacts/open-prices**](https://github.com/openfoodfacts/open-prices) | `110` | crowdsourcing | [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) |
 | [**pypa/distlib**](https://github.com/pypa/distlib) | `65` | Python packaging | [Use the Python-2.0.1 SPDX license identifier](https://github.com/pypa/distlib/pull/276) |
 | [**ga4gh/vrs-python**](https://github.com/ga4gh/vrs-python) | `64` | bioinformatics | [Reject trailing input in beacon, gnomAD and SPDI translators](https://github.com/ga4gh/vrs-python/pull/670) |
 | [**konflux-ci/rpm-lockfile-prototype**](https://github.com/konflux-ci/rpm-lockfile-prototype) | `16` |  | [Handle registry port numbers in image specs](https://github.com/konflux-ci/rpm-lockfile-prototype/pull/184) |
-| [**apache/solr-orbit**](https://github.com/apache/solr-orbit) | `3` | apache | [Build the Docker image on Python 3.13, inside requires-python](https://github.com/apache/solr-orbit/pull/126)<br/>[Page through collections with SolrClient.search in create-workload](https://github.com/apache/solr-orbit/pull/125)<br/>[Restore metrics.metrics_store_class so solr-orbit stop works again](https://github.com/apache/solr-orbit/pull/124) |
+| [**apache/solr-orbit**](https://github.com/apache/solr-orbit) | `3` | apache | [Build the Docker image on Python 3.13, inside requires-python](https://github.com/apache/solr-orbit/pull/126)<br/>[Page through collections with SolrClient.search in create-workload](https://github.com/apache/solr-orbit/pull/125)<br/>[Restore metrics.metrics_store_class so solr-orbit stop works again](https://github.com/apache/solr-orbit/pull/124)<br/>[Create ClusterEnvironmentInfo so --telemetry cluster-environment-info works](https://github.com/apache/solr-orbit/pull/135)<br/>[Add a make licenses target that generates THIRD_PARTY.md](https://github.com/apache/solr-orbit/pull/133) |
 <!-- merged ends -->
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 83 PRs across 69 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
+<summary><b>🕐 In review: 80 PRs across 68 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
 
 <br/>
 
 | Project | ⭐ | Fix |
 |---|:--:|---|
 | [microsoft/markitdown](https://github.com/microsoft/markitdown/pull/2302) | `191k` | Refactor ImageConverter to reuse llm_caption helper |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0/pull/7001) | `67k` | Dispatch add_embeddings on actual signature |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0/pull/7001) | `68k` | Dispatch add_embeddings on actual signature |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm/pull/45952) | `62k` | Route GPT-5.4+ function-tool calls through the Responses API |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI/pull/8040) | `60k` | Opt-in deferred tool loading via Responses tool search |
 | [agno-agi/agno](https://github.com/agno-agi/agno/pull/9596) | `43k` | Chain exception causes in tool, model, and vectordb error paths |

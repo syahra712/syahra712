@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" fill="none" role="img" aria-label="Syed Ahnaf Raza — AI Engineer and open-source contributor. 25 pull requests merged upstream, 83 in review, across 81 projects.">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" fill="none" role="img" aria-label="Syed Ahnaf Raza — AI Engineer and open-source contributor. 27 pull requests merged upstream, 80 in review, across 80 projects.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
@@ -47,7 +47,7 @@
   <!-- stat tiles -->
   <g>
     <rect x="44"  y="190" width="192" height="80" rx="12" fill="url(#tile)" stroke="#30363d"/>
-    <text x="140" y="230" text-anchor="middle" class="num accn">25</text>
+    <text x="140" y="230" text-anchor="middle" class="num accn">27</text>
     <text x="140" y="252" text-anchor="middle" class="lbl">PRs MERGED UPSTREAM</text>
 
     <rect x="250" y="190" width="192" height="80" rx="12" fill="url(#tile)" stroke="#30363d"/>
@@ -55,11 +55,11 @@
     <text x="346" y="252" text-anchor="middle" class="lbl">★ ON REPOS PATCHED</text>
 
     <rect x="456" y="190" width="192" height="80" rx="12" fill="url(#tile)" stroke="#30363d"/>
-    <text x="552" y="230" text-anchor="middle" class="num">83</text>
+    <text x="552" y="230" text-anchor="middle" class="num">80</text>
     <text x="552" y="252" text-anchor="middle" class="lbl">PRs IN REVIEW</text>
 
     <rect x="662" y="190" width="194" height="80" rx="12" fill="url(#tile)" stroke="#30363d"/>
-    <text x="759" y="230" text-anchor="middle" class="num">81</text>
+    <text x="759" y="230" text-anchor="middle" class="num">80</text>
     <text x="759" y="252" text-anchor="middle" class="lbl">PROJECTS CONTRIBUTED TO</text>
   </g>
 
