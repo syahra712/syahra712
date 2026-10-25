@@ -47,7 +47,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**StingraySoftware/stingray**](https://github.com/StingraySoftware/stingray) | `228` | astronomy | [Fix gti __all__ entry and accept list GTIs in get_btis](https://github.com/StingraySoftware/stingray/pull/991) |
 | [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `168` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284) |
 | [**openfoodfacts/open-prices**](https://github.com/openfoodfacts/open-prices) | `110` | crowdsourcing | [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) |
-| [**pypa/distlib**](https://github.com/pypa/distlib) | `65` | Python packaging | [Use the Python-2.0.1 SPDX license identifier](https://github.com/pypa/distlib/pull/276) |
+| [**pypa/distlib**](https://github.com/pypa/distlib) | `66` | Python packaging | [Use the Python-2.0.1 SPDX license identifier](https://github.com/pypa/distlib/pull/276) |
 | [**ga4gh/vrs-python**](https://github.com/ga4gh/vrs-python) | `64` | bioinformatics | [Reject trailing input in beacon, gnomAD and SPDI translators](https://github.com/ga4gh/vrs-python/pull/670) |
 | [**SciTools/ncdata**](https://github.com/SciTools/ncdata) | `16` |  | [Replace deprecated licence config in pyproject.toml](https://github.com/SciTools/ncdata/pull/268) |
 | [**konflux-ci/rpm-lockfile-prototype**](https://github.com/konflux-ci/rpm-lockfile-prototype) | `16` |  | [Handle registry port numbers in image specs](https://github.com/konflux-ci/rpm-lockfile-prototype/pull/184)<br/>[Add --tls-verify option for skopeo calls](https://github.com/konflux-ci/rpm-lockfile-prototype/pull/186) |
