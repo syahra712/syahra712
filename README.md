@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [Ceph_pool: fix arguments passed to list_pools()](https://github.com/ceph/ceph-ansible/pull/7744) in **ceph/ceph-ansible** · 2026-10-26
+**Latest merge:** [Handle negative and out-of-range indexes in TAxis.__getitem__](https://github.com/scikit-hep/uproot5/pull/1765) in **scikit-hep/uproot5** · 2026-10-27
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -31,11 +31,13 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 |---|:--:|---|---|
 | [**docling-project/docling**](https://github.com/docling-project/docling) | `70k` | document AI · VLMs | [Coerce MLX bfloat16 logprobs to float in VlmPredictionToken](https://github.com/docling-project/docling/pull/4005) |
 | [**BerriAI/litellm**](https://github.com/BerriAI/litellm) | `62k` | LLM gateway · billing | [Don't retire a completed batch from cost recovery while output_file_id is lagging](https://github.com/BerriAI/litellm/pull/37715) |
+| [**nltk/nltk**](https://github.com/nltk/nltk) | `15k` | machine learning | [Fix bare raise outside except block in sem.util.root_semrep](https://github.com/nltk/nltk/pull/3997) |
 | [**sshuttle/sshuttle**](https://github.com/sshuttle/sshuttle) | `14k` | networking · firewalls | [pf exclusions ignored under a wider include since rules became quick](https://github.com/sshuttle/sshuttle/pull/1270)<br/>[Skip hostwatch when the server has no os.fork](https://github.com/sshuttle/sshuttle/pull/1271)<br/>[Keep the tunnel up when a DNS or UDP reply cannot be sent](https://github.com/sshuttle/sshuttle/pull/1273)<br/>[Drop the zone id of a link-local nameserver from nft rules](https://github.com/sshuttle/sshuttle/pull/1272) |
 | [**tox-dev/tox**](https://github.com/tox-dev/tox) | `4k` | Python test tooling | [Keep the packaging backend captured with --no-capture](https://github.com/tox-dev/tox/pull/4164) |
 | [**aboutcode-org/scancode-toolkit**](https://github.com/aboutcode-org/scancode-toolkit) | `2.7k` | license compliance | [Cap pluggy below 1.7.0](https://github.com/aboutcode-org/scancode-toolkit/pull/5364) |
 | [**cuthbertLab/music21**](https://github.com/cuthbertLab/music21) | `2.6k` |  | [(AI) Read MusicXML octave-change in transpose without diatonic](https://github.com/cuthbertLab/music21/pull/2086)<br/>[(AI) Order TimespanTree.allParts() by the source score](https://github.com/cuthbertLab/music21/pull/2089) |
 | [**ceph/ceph-ansible**](https://github.com/ceph/ceph-ansible) | `1.8k` | ansible | [Ceph_pool: fix arguments passed to list_pools()](https://github.com/ceph/ceph-ansible/pull/7744) |
+| [**pybamm-team/PyBaMM**](https://github.com/pybamm-team/PyBaMM) | `1.7k` | batteries | [Fix kinetics `__all__` listing inverse kinetics submodules](https://github.com/pybamm-team/PyBaMM/pull/5970) |
 | [**fossasia/voxbento**](https://github.com/fossasia/voxbento) | `1.5k` | web API · access control | [Scope admin transcript routes to the requested event](https://github.com/fossasia/voxbento/pull/813) |
 | [**fossasia/veditor**](https://github.com/fossasia/veditor) | `1.5k` |  | [Show app INFO logs so the dev verification link is visible](https://github.com/fossasia/veditor/pull/317) |
 | [**mpmath/mpmath**](https://github.com/mpmath/mpmath) | `1.2k` | arbitrary precision | [Flip rounding direction when negating in mpf_gamma(type=3) (fixes iv.loggamma)](https://github.com/mpmath/mpmath/pull/1204) |
@@ -45,6 +47,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**GoogleCloudPlatform/professional-services-data-validator**](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | `532` |  | [Convert Impala connection options given as strings to their real types](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1852)<br/>[Use UTF-8 for stdout so non-ASCII results can be printed on Windows](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1853) |
 | [**fortran-lang/fortls**](https://github.com/fortran-lang/fortls) | `348` | fortls | [Handle mixed quotes in find_paren_match](https://github.com/fortran-lang/fortls/pull/569) |
 | [**openSUSE/opi**](https://github.com/openSUSE/opi) | `290` | cli | [Fetch file:// and $releasever gpgkeys correctly when asking to keep a key](https://github.com/openSUSE/opi/pull/227) |
+| [**scikit-hep/uproot5**](https://github.com/scikit-hep/uproot5) | `273` | analysis | [Handle negative and out-of-range indexes in TAxis.__getitem__](https://github.com/scikit-hep/uproot5/pull/1765) |
 | [**StingraySoftware/stingray**](https://github.com/StingraySoftware/stingray) | `228` | astronomy | [Fix gti __all__ entry and accept list GTIs in get_btis](https://github.com/StingraySoftware/stingray/pull/991) |
 | [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `168` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284) |
 | [**openfoodfacts/open-prices**](https://github.com/openfoodfacts/open-prices) | `110` | crowdsourcing | [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) |
@@ -59,13 +62,13 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 95 PRs across 82 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
+<summary><b>🕐 In review: 90 PRs across 78 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
 
 <br/>
 
 | Project | ⭐ | Fix |
 |---|:--:|---|
-| [microsoft/markitdown](https://github.com/microsoft/markitdown/pull/2302) | `192k` | Refactor ImageConverter to reuse llm_caption helper |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown/pull/2302) | `193k` | Refactor ImageConverter to reuse llm_caption helper |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0/pull/7001) | `68k` | Dispatch add_embeddings on actual signature |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm/pull/45952) | `62k` | Route GPT-5.4+ function-tool calls through the Responses API |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI/pull/8040) | `60k` | Opt-in deferred tool loading via Responses tool search |
@@ -73,10 +76,10 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy/pull/10227) | `39k` | Add sort_keys=True to tool call/result JSON serialization |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents/pull/2950) | `30k` | Accept AgentImage/AgentAudio state values for image/audio tool inputs |
 | [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot/pull/34806) | `16k` | Tools: param_unpack.py: support param.pck files with defaults |
-| [sympy/sympy](https://github.com/sympy/sympy/pull/30318) | `15k` | Annotate sympy/physics/quantum/qft.py |
-| [nltk/nltk](https://github.com/nltk/nltk/pull/3997) | `15k` | Fix bare raise outside except block in sem.util.root_semrep |
 | [pyro-ppl/pyro](https://github.com/pyro-ppl/pyro/pull/3500) | `9.1k` | Restore deep_getattr in pyro.infer.autoguide.utils |
 | [arrow-py/arrow](https://github.com/arrow-py/arrow/pull/1391) | `9.1k` | Use calendar months for humanize month and quarter granularity |
+| [marshmallow-code/marshmallow](https://github.com/marshmallow-code/marshmallow/pull/3073) | `7.2k` | Reject leading/trailing hyphen in the last domain label in validate.Email |
+| [python-pendulum/pendulum](https://github.com/python-pendulum/pendulum/pull/1064) | `6.7k` | Fix precise_diff counting partial months as full months |
 
 <sub>[See every open PR →](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20author%3Asyahra712%20-user%3Aahnaf-lab%20-user%3Asyahra712)</sub>
 
