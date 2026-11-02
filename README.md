@@ -23,14 +23,14 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [Call lower_gamma() directly in the _gamma3() fallback (fixes #467)](https://github.com/mpmath/mpmath/pull/1210) in **mpmath/mpmath** · 2026-11-01
+**Latest merge:** [Fix method signatures when self is positional-only or absent](https://github.com/readthedocs/sphinx-autoapi/pull/577) in **readthedocs/sphinx-autoapi** · 2026-11-02
 <!-- latest ends -->
 
 <!-- merged starts -->
 | Project | ⭐ | Area | What I fixed |
 |---|:--:|---|---|
 | [**docling-project/docling**](https://github.com/docling-project/docling) | `70k` | document AI · VLMs | [Coerce MLX bfloat16 logprobs to float in VlmPredictionToken](https://github.com/docling-project/docling/pull/4005) |
-| [**BerriAI/litellm**](https://github.com/BerriAI/litellm) | `62k` | LLM gateway · billing | [Don't retire a completed batch from cost recovery while output_file_id is lagging](https://github.com/BerriAI/litellm/pull/37715) |
+| [**BerriAI/litellm**](https://github.com/BerriAI/litellm) | `63k` | LLM gateway · billing | [Don't retire a completed batch from cost recovery while output_file_id is lagging](https://github.com/BerriAI/litellm/pull/37715) |
 | [**nltk/nltk**](https://github.com/nltk/nltk) | `15k` | machine learning | [Fix bare raise outside except block in sem.util.root_semrep](https://github.com/nltk/nltk/pull/3997)<br/>[Fix NameError in UndirectedTypeRaise.can_combine](https://github.com/nltk/nltk/pull/3999) |
 | [**sshuttle/sshuttle**](https://github.com/sshuttle/sshuttle) | `14k` | networking · firewalls | [pf exclusions ignored under a wider include since rules became quick](https://github.com/sshuttle/sshuttle/pull/1270)<br/>[Skip hostwatch when the server has no os.fork](https://github.com/sshuttle/sshuttle/pull/1271)<br/>[Keep the tunnel up when a DNS or UDP reply cannot be sent](https://github.com/sshuttle/sshuttle/pull/1273)<br/>[Drop the zone id of a link-local nameserver from nft rules](https://github.com/sshuttle/sshuttle/pull/1272) |
 | [**biopython/biopython**](https://github.com/biopython/biopython) | `5.3k` | bioinformatics | [Fix unformatted placeholder in double complement error message](https://github.com/biopython/biopython/pull/5393) |
@@ -50,7 +50,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**pymc-devs/pytensor**](https://github.com/pymc-devs/pytensor) | `648` | ai | [Index 0-d MakeVector inputs instead of calling .item() in numba](https://github.com/pymc-devs/pytensor/pull/2503) |
 | [**mozilla/bugbug**](https://github.com/mozilla/bugbug) | `576` | agentic ai | [Keep full comment text when rendering Phabricator revisions](https://github.com/mozilla/bugbug/pull/7197) |
 | [**GoogleCloudPlatform/professional-services-data-validator**](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | `535` |  | [Convert Impala connection options given as strings to their real types](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1852)<br/>[Use UTF-8 for stdout so non-ASCII results can be printed on Windows](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1853)<br/>[Do not split --filters on PostgreSQL style :: type casts](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1861) |
-| [**readthedocs/sphinx-autoapi**](https://github.com/readthedocs/sphinx-autoapi) | `497` |  | [Fix recursion when a nested class inherits from its enclosing class](https://github.com/readthedocs/sphinx-autoapi/pull/572) |
+| [**readthedocs/sphinx-autoapi**](https://github.com/readthedocs/sphinx-autoapi) | `497` |  | [Fix recursion when a nested class inherits from its enclosing class](https://github.com/readthedocs/sphinx-autoapi/pull/572)<br/>[Fix method signatures when self is positional-only or absent](https://github.com/readthedocs/sphinx-autoapi/pull/577) |
 | [**fortran-lang/fortls**](https://github.com/fortran-lang/fortls) | `348` | fortls | [Handle mixed quotes in find_paren_match](https://github.com/fortran-lang/fortls/pull/569) |
 | [**wradlib/wradlib**](https://github.com/wradlib/wradlib) | `323` | hacktoberfest | [Show filename in read_gamic_hdf5 error for non-GAMIC files](https://github.com/wradlib/wradlib/pull/803) |
 | [**gammapy/gammapy**](https://github.com/gammapy/gammapy) | `294` | astronomy | [Fix missing f-prefix in two error messages](https://github.com/gammapy/gammapy/pull/6918) |
@@ -75,7 +75,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 85 PRs across 74 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
+<summary><b>🕐 In review: 84 PRs across 73 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
 
 <br/>
 
@@ -83,7 +83,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 |---|:--:|---|
 | [microsoft/markitdown](https://github.com/microsoft/markitdown/pull/2302) | `193k` | Refactor ImageConverter to reuse llm_caption helper |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0/pull/7001) | `68k` | Dispatch add_embeddings on actual signature |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm/pull/45952) | `62k` | Route GPT-5.4+ function-tool calls through the Responses API |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm/pull/45952) | `63k` | Route GPT-5.4+ function-tool calls through the Responses API |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI/pull/8040) | `60k` | Opt-in deferred tool loading via Responses tool search |
 | [agno-agi/agno](https://github.com/agno-agi/agno/pull/9596) | `43k` | Chain exception causes in tool, model, and vectordb error paths |
 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy/pull/10227) | `39k` | Add sort_keys=True to tool call/result JSON serialization |
