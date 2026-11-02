@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [Fix method signatures when self is positional-only or absent](https://github.com/readthedocs/sphinx-autoapi/pull/577) in **readthedocs/sphinx-autoapi** · 2026-11-02
+**Latest merge:** [#281: clear IMAP mailbox state when EXPUNGE fails in close_mailbox](https://github.com/getmail6/getmail6/pull/290) in **getmail6/getmail6** · 2026-11-02
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -57,7 +57,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**openSUSE/opi**](https://github.com/openSUSE/opi) | `289` | cli | [Fetch file:// and $releasever gpgkeys correctly when asking to keep a key](https://github.com/openSUSE/opi/pull/227) |
 | [**scikit-hep/uproot5**](https://github.com/scikit-hep/uproot5) | `274` | analysis | [Handle negative and out-of-range indexes in TAxis.__getitem__](https://github.com/scikit-hep/uproot5/pull/1765) |
 | [**StingraySoftware/stingray**](https://github.com/StingraySoftware/stingray) | `227` | astronomy | [Fix gti __all__ entry and accept list GTIs in get_btis](https://github.com/StingraySoftware/stingray/pull/991) |
-| [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `170` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284) |
+| [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `170` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284)<br/>[#281: clear IMAP mailbox state when EXPUNGE fails in close_mailbox](https://github.com/getmail6/getmail6/pull/290) |
 | [**scikit-hep/hist**](https://github.com/scikit-hep/hist) | `139` | histogram | [Raise for missing exact names in wildcard category lists](https://github.com/scikit-hep/hist/pull/738) |
 | [**openfoodfacts/open-prices**](https://github.com/openfoodfacts/open-prices) | `110` | crowdsourcing | [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) |
 | [**theochem/grid**](https://github.com/theochem/grid) | `102` | clenshaw curtis | [Return an empty LocalGrid when no point is within the radius](https://github.com/theochem/grid/pull/344) |
@@ -75,13 +75,13 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 84 PRs across 73 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
+<summary><b>🕐 In review: 83 PRs across 72 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
 
 <br/>
 
 | Project | ⭐ | Fix |
 |---|:--:|---|
-| [microsoft/markitdown](https://github.com/microsoft/markitdown/pull/2302) | `193k` | Refactor ImageConverter to reuse llm_caption helper |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown/pull/2302) | `194k` | Refactor ImageConverter to reuse llm_caption helper |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0/pull/7001) | `68k` | Dispatch add_embeddings on actual signature |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm/pull/45952) | `63k` | Route GPT-5.4+ function-tool calls through the Responses API |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI/pull/8040) | `60k` | Opt-in deferred tool loading via Responses tool search |
