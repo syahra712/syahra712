@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [#281: clear IMAP mailbox state when EXPUNGE fails in close_mailbox](https://github.com/getmail6/getmail6/pull/290) in **getmail6/getmail6** · 2026-11-02
+**Latest merge:** [Smirnovp: avoid int overflow in derivative coefficient for large n](https://github.com/scipy/xsf/pull/320) in **scipy/xsf** · 2026-11-02
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -38,7 +38,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**pyro-ppl/numpyro**](https://github.com/pyro-ppl/numpyro) | `2.8k` | bayesian inference | [Parse JAX_ENABLE_X64 as a boolean string in enable_x64](https://github.com/pyro-ppl/numpyro/pull/2394) |
 | [**aboutcode-org/scancode-toolkit**](https://github.com/aboutcode-org/scancode-toolkit) | `2.7k` | license compliance | [Cap pluggy below 1.7.0](https://github.com/aboutcode-org/scancode-toolkit/pull/5364) |
 | [**cuthbertLab/music21**](https://github.com/cuthbertLab/music21) | `2.6k` |  | [(AI) Read MusicXML octave-change in transpose without diatonic](https://github.com/cuthbertLab/music21/pull/2086)<br/>[(AI) Order TimespanTree.allParts() by the source score](https://github.com/cuthbertLab/music21/pull/2089) |
-| [**neuropsychology/NeuroKit**](https://github.com/neuropsychology/NeuroKit) | `2.4k` | biosignals | [Hrv_rsa(): compute RSA_PorgesBohrer on heart period, not heart rate](https://github.com/neuropsychology/NeuroKit/pull/1231) |
+| [**neuropsychology/NeuroKit**](https://github.com/neuropsychology/NeuroKit) | `2.4k` | biosignals | [Hrv_rsa(): compute RSA_PorgesBohrer on heart period, not heart rate](https://github.com/neuropsychology/NeuroKit/pull/1231)<br/>[Signal_formatpeaks(): drop every nan index together with its value](https://github.com/neuropsychology/NeuroKit/pull/1237) |
 | [**ceph/ceph-ansible**](https://github.com/ceph/ceph-ansible) | `1.8k` | ansible | [Ceph_pool: fix arguments passed to list_pools()](https://github.com/ceph/ceph-ansible/pull/7744) |
 | [**pybamm-team/PyBaMM**](https://github.com/pybamm-team/PyBaMM) | `1.7k` | batteries | [Fix kinetics `__all__` listing inverse kinetics submodules](https://github.com/pybamm-team/PyBaMM/pull/5970) |
 | [**fossasia/voxbento**](https://github.com/fossasia/voxbento) | `1.5k` | web API · access control | [Scope admin transcript routes to the requested event](https://github.com/fossasia/voxbento/pull/813) |
@@ -58,12 +58,13 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**scikit-hep/uproot5**](https://github.com/scikit-hep/uproot5) | `274` | analysis | [Handle negative and out-of-range indexes in TAxis.__getitem__](https://github.com/scikit-hep/uproot5/pull/1765) |
 | [**StingraySoftware/stingray**](https://github.com/StingraySoftware/stingray) | `227` | astronomy | [Fix gti __all__ entry and accept list GTIs in get_btis](https://github.com/StingraySoftware/stingray/pull/991) |
 | [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `170` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284)<br/>[#281: clear IMAP mailbox state when EXPUNGE fails in close_mailbox](https://github.com/getmail6/getmail6/pull/290) |
-| [**scikit-hep/hist**](https://github.com/scikit-hep/hist) | `139` | histogram | [Raise for missing exact names in wildcard category lists](https://github.com/scikit-hep/hist/pull/738) |
+| [**scikit-hep/hist**](https://github.com/scikit-hep/hist) | `139` | histogram | [Raise for missing exact names in wildcard category lists](https://github.com/scikit-hep/hist/pull/738)<br/>[Accept NumPy integer arrays in from_columns](https://github.com/scikit-hep/hist/pull/748) |
 | [**openfoodfacts/open-prices**](https://github.com/openfoodfacts/open-prices) | `110` | crowdsourcing | [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) |
 | [**theochem/grid**](https://github.com/theochem/grid) | `102` | clenshaw curtis | [Return an empty LocalGrid when no point is within the radius](https://github.com/theochem/grid/pull/344) |
 | [**pypa/distlib**](https://github.com/pypa/distlib) | `66` | Python packaging | [Use the Python-2.0.1 SPDX license identifier](https://github.com/pypa/distlib/pull/276) |
 | [**ga4gh/vrs-python**](https://github.com/ga4gh/vrs-python) | `64` | bioinformatics | [Reject trailing input in beacon, gnomAD and SPDI translators](https://github.com/ga4gh/vrs-python/pull/670) |
 | [**sugarlabs/www-v2**](https://github.com/sugarlabs/www-v2) | `62` | hacktoberfest | [Redirect /music-blocks to /musicblocks](https://github.com/sugarlabs/www-v2/pull/1082) |
+| [**scipy/xsf**](https://github.com/scipy/xsf) | `43` |  | [Smirnovp: avoid int overflow in derivative coefficient for large n](https://github.com/scipy/xsf/pull/320) |
 | [**pyccel/sympde**](https://github.com/pyccel/sympde) | `25` | finite elements | [Keep the physical dimension of mappings in Domain.export / Domain.from_file](https://github.com/pyccel/sympde/pull/201) |
 | [**arviz-devs/arviz-stats**](https://github.com/arviz-devs/arviz-stats) | `18` |  | [Stabilize stacking weights against overflow in exp of pointwise ELPD](https://github.com/arviz-devs/arviz-stats/pull/501) |
 | [**SciTools/ncdata**](https://github.com/SciTools/ncdata) | `16` |  | [Replace deprecated licence config in pyproject.toml](https://github.com/SciTools/ncdata/pull/268) |
@@ -75,7 +76,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 83 PRs across 72 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
+<summary><b>🕐 In review: 86 PRs across 72 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
 
 <br/>
 
