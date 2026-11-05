@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [Mavwp: keep legacy rally file altitude in metres](https://github.com/ArduPilot/pymavlink/pull/1316) in **ArduPilot/pymavlink** · 2026-11-05
+**Latest merge:** [Fix vertical hue lines and ref_angle in power-color state labels](https://github.com/StingraySoftware/stingray/pull/999) in **StingraySoftware/stingray** · 2026-11-05
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -37,6 +37,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**tox-dev/tox**](https://github.com/tox-dev/tox) | `4k` | Python test tooling | [Keep the packaging backend captured with --no-capture](https://github.com/tox-dev/tox/pull/4164)<br/>[Keep --no-index when an index URL follows it](https://github.com/tox-dev/tox/pull/4187) |
 | [**pyro-ppl/numpyro**](https://github.com/pyro-ppl/numpyro) | `2.8k` | bayesian inference | [Parse JAX_ENABLE_X64 as a boolean string in enable_x64](https://github.com/pyro-ppl/numpyro/pull/2394) |
 | [**aboutcode-org/scancode-toolkit**](https://github.com/aboutcode-org/scancode-toolkit) | `2.7k` | license compliance | [Cap pluggy below 1.7.0](https://github.com/aboutcode-org/scancode-toolkit/pull/5364) |
+| [**Pyomo/pyomo**](https://github.com/Pyomo/pyomo) | `2.6k` | linear programming | [Fix UnboundLocalError in quadratic walker for InvalidNumber * zero-constant products](https://github.com/Pyomo/pyomo/pull/4063) |
 | [**neuropsychology/NeuroKit**](https://github.com/neuropsychology/NeuroKit) | `2.4k` | biosignals | [Hrv_rsa(): compute RSA_PorgesBohrer on heart period, not heart rate](https://github.com/neuropsychology/NeuroKit/pull/1231)<br/>[Signal_formatpeaks(): drop every nan index together with its value](https://github.com/neuropsychology/NeuroKit/pull/1237) |
 | [**ceph/ceph-ansible**](https://github.com/ceph/ceph-ansible) | `1.8k` | ansible | [Ceph_pool: fix arguments passed to list_pools()](https://github.com/ceph/ceph-ansible/pull/7744) |
 | [**pybamm-team/PyBaMM**](https://github.com/pybamm-team/PyBaMM) | `1.7k` | batteries | [Fix kinetics `__all__` listing inverse kinetics submodules](https://github.com/pybamm-team/PyBaMM/pull/5970) |
@@ -56,13 +57,13 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**gammapy/gammapy**](https://github.com/gammapy/gammapy) | `294` | astronomy | [Fix missing f-prefix in two error messages](https://github.com/gammapy/gammapy/pull/6918) |
 | [**openSUSE/opi**](https://github.com/openSUSE/opi) | `289` | cli | [Fetch file:// and $releasever gpgkeys correctly when asking to keep a key](https://github.com/openSUSE/opi/pull/227) |
 | [**scikit-hep/uproot5**](https://github.com/scikit-hep/uproot5) | `274` | analysis | [Handle negative and out-of-range indexes in TAxis.__getitem__](https://github.com/scikit-hep/uproot5/pull/1765) |
-| [**StingraySoftware/stingray**](https://github.com/StingraySoftware/stingray) | `227` | astronomy | [Fix gti __all__ entry and accept list GTIs in get_btis](https://github.com/StingraySoftware/stingray/pull/991) |
+| [**StingraySoftware/stingray**](https://github.com/StingraySoftware/stingray) | `227` | astronomy | [Fix gti __all__ entry and accept list GTIs in get_btis](https://github.com/StingraySoftware/stingray/pull/991)<br/>[Fix vertical hue lines and ref_angle in power-color state labels](https://github.com/StingraySoftware/stingray/pull/999) |
 | [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `171` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284)<br/>[#281: clear IMAP mailbox state when EXPUNGE fails in close_mailbox](https://github.com/getmail6/getmail6/pull/290) |
 | [**scikit-hep/hist**](https://github.com/scikit-hep/hist) | `140` | histogram | [Raise for missing exact names in wildcard category lists](https://github.com/scikit-hep/hist/pull/738)<br/>[Accept NumPy integer arrays in from_columns](https://github.com/scikit-hep/hist/pull/748) |
-| [**openfoodfacts/open-prices**](https://github.com/openfoodfacts/open-prices) | `110` | crowdsourcing | [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) |
+| [**openfoodfacts/open-prices**](https://github.com/openfoodfacts/open-prices) | `111` | crowdsourcing | [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) |
 | [**theochem/grid**](https://github.com/theochem/grid) | `102` | clenshaw curtis | [Return an empty LocalGrid when no point is within the radius](https://github.com/theochem/grid/pull/344)<br/>[Accept NumPy integers when indexing Grid, OneDGrid and PeriodicGrid](https://github.com/theochem/grid/pull/346) |
+| [**ga4gh/vrs-python**](https://github.com/ga4gh/vrs-python) | `66` | bioinformatics | [Reject trailing input in beacon, gnomAD and SPDI translators](https://github.com/ga4gh/vrs-python/pull/670) |
 | [**pypa/distlib**](https://github.com/pypa/distlib) | `66` | Python packaging | [Use the Python-2.0.1 SPDX license identifier](https://github.com/pypa/distlib/pull/276) |
-| [**ga4gh/vrs-python**](https://github.com/ga4gh/vrs-python) | `65` | bioinformatics | [Reject trailing input in beacon, gnomAD and SPDI translators](https://github.com/ga4gh/vrs-python/pull/670) |
 | [**sugarlabs/www-v2**](https://github.com/sugarlabs/www-v2) | `62` | hacktoberfest | [Redirect /music-blocks to /musicblocks](https://github.com/sugarlabs/www-v2/pull/1082) |
 | [**scipy/xsf**](https://github.com/scipy/xsf) | `43` |  | [Smirnovp: avoid int overflow in derivative coefficient for large n](https://github.com/scipy/xsf/pull/320) |
 | [**pyccel/sympde**](https://github.com/pyccel/sympde) | `25` | finite elements | [Keep the physical dimension of mappings in Domain.export / Domain.from_file](https://github.com/pyccel/sympde/pull/201) |
@@ -76,7 +77,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 83 PRs across 68 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
+<summary><b>🕐 In review: 81 PRs across 66 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
 
 <br/>
 
