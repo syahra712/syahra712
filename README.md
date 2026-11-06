@@ -55,7 +55,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**fortran-lang/fortls**](https://github.com/fortran-lang/fortls) | `348` | fortls | [Handle mixed quotes in find_paren_match](https://github.com/fortran-lang/fortls/pull/569) |
 | [**wradlib/wradlib**](https://github.com/wradlib/wradlib) | `323` | hacktoberfest | [Show filename in read_gamic_hdf5 error for non-GAMIC files](https://github.com/wradlib/wradlib/pull/803) |
 | [**gammapy/gammapy**](https://github.com/gammapy/gammapy) | `294` | astronomy | [Fix missing f-prefix in two error messages](https://github.com/gammapy/gammapy/pull/6918) |
-| [**openSUSE/opi**](https://github.com/openSUSE/opi) | `289` | cli | [Fetch file:// and $releasever gpgkeys correctly when asking to keep a key](https://github.com/openSUSE/opi/pull/227) |
+| [**openSUSE/opi**](https://github.com/openSUSE/opi) | `290` | cli | [Fetch file:// and $releasever gpgkeys correctly when asking to keep a key](https://github.com/openSUSE/opi/pull/227) |
 | [**scikit-hep/uproot5**](https://github.com/scikit-hep/uproot5) | `274` | analysis | [Handle negative and out-of-range indexes in TAxis.__getitem__](https://github.com/scikit-hep/uproot5/pull/1765) |
 | [**StingraySoftware/stingray**](https://github.com/StingraySoftware/stingray) | `227` | astronomy | [Fix gti __all__ entry and accept list GTIs in get_btis](https://github.com/StingraySoftware/stingray/pull/991)<br/>[Fix vertical hue lines and ref_angle in power-color state labels](https://github.com/StingraySoftware/stingray/pull/999) |
 | [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `171` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284)<br/>[#281: clear IMAP mailbox state when EXPUNGE fails in close_mailbox](https://github.com/getmail6/getmail6/pull/290) |
@@ -84,7 +84,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | Project | ⭐ | Fix |
 |---|:--:|---|
 | [microsoft/markitdown](https://github.com/microsoft/markitdown/pull/2302) | `194k` | Refactor ImageConverter to reuse llm_caption helper |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0/pull/7001) | `68k` | Dispatch add_embeddings on actual signature |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0/pull/7001) | `69k` | Dispatch add_embeddings on actual signature |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm/pull/45952) | `63k` | Route GPT-5.4+ function-tool calls through the Responses API |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI/pull/8040) | `61k` | Opt-in deferred tool loading via Responses tool search |
 | [agno-agi/agno](https://github.com/agno-agi/agno/pull/9596) | `43k` | Chain exception causes in tool, model, and vectordb error paths |
