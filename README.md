@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [Fix to_dict() for big-endian arrays in four models](https://github.com/gammapy/gammapy/pull/6952) in **gammapy/gammapy** · 2026-11-07
+**Latest merge:** [Show a three-node cluster example in the quickstart](https://github.com/apache/solr-orbit/pull/132) in **apache/solr-orbit** · 2026-11-07
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -72,12 +72,13 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**konflux-ci/rpm-lockfile-prototype**](https://github.com/konflux-ci/rpm-lockfile-prototype) | `16` |  | [Handle registry port numbers in image specs](https://github.com/konflux-ci/rpm-lockfile-prototype/pull/184)<br/>[Add --tls-verify option for skopeo calls](https://github.com/konflux-ci/rpm-lockfile-prototype/pull/186) |
 | [**fossology/fossology-python**](https://github.com/fossology/fossology-python) | `15` | automation | [Don't send "None" as the folder description](https://github.com/fossology/fossology-python/pull/212) |
 | [**plone/plone.event**](https://github.com/plone/plone.event) | `5` |  | [Pass re.MULTILINE to re.sub as flags, not as count](https://github.com/plone/plone.event/pull/71) |
-| [**apache/solr-orbit**](https://github.com/apache/solr-orbit) | `3` | apache | [Build the Docker image on Python 3.13, inside requires-python](https://github.com/apache/solr-orbit/pull/126)<br/>[Page through collections with SolrClient.search in create-workload](https://github.com/apache/solr-orbit/pull/125)<br/>[Restore metrics.metrics_store_class so solr-orbit stop works again](https://github.com/apache/solr-orbit/pull/124)<br/>[Create ClusterEnvironmentInfo so --telemetry cluster-environment-info works](https://github.com/apache/solr-orbit/pull/135)<br/>[Add a make licenses target that generates THIRD_PARTY.md](https://github.com/apache/solr-orbit/pull/133) |
+| [**apache/solr-orbit**](https://github.com/apache/solr-orbit) | `3` | apache | [Build the Docker image on Python 3.13, inside requires-python](https://github.com/apache/solr-orbit/pull/126)<br/>[Page through collections with SolrClient.search in create-workload](https://github.com/apache/solr-orbit/pull/125)<br/>[Restore metrics.metrics_store_class so solr-orbit stop works again](https://github.com/apache/solr-orbit/pull/124)<br/>[Create ClusterEnvironmentInfo so --telemetry cluster-environment-info works](https://github.com/apache/solr-orbit/pull/135)<br/>[Add a make licenses target that generates THIRD_PARTY.md](https://github.com/apache/solr-orbit/pull/133)<br/>[Count failed bulk-index batches once in the reported weight](https://github.com/apache/solr-orbit/pull/151)<br/>[Report raw-request HTTP errors as failed requests](https://github.com/apache/solr-orbit/pull/152)<br/>[Show a three-node cluster example in the quickstart](https://github.com/apache/solr-orbit/pull/132) |
+| [**apache/solr-orbit-workloads**](https://github.com/apache/solr-orbit-workloads) | `2` | apache | [Nyc_taxis: draw randomized dates from each operation's facet window](https://github.com/apache/solr-orbit-workloads/pull/23) |
 <!-- merged ends -->
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 91 PRs across 72 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
+<summary><b>🕐 In review: 89 PRs across 71 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
 
 <br/>
 
