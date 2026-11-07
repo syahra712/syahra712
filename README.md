@@ -50,7 +50,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**SciTools/iris**](https://github.com/SciTools/iris) | `729` | data analysis | [Show the offending object in CubeList non-cube error](https://github.com/SciTools/iris/pull/7348) |
 | [**pymc-devs/pytensor**](https://github.com/pymc-devs/pytensor) | `649` | ai | [Index 0-d MakeVector inputs instead of calling .item() in numba](https://github.com/pymc-devs/pytensor/pull/2503) |
 | [**mozilla/bugbug**](https://github.com/mozilla/bugbug) | `578` | agentic ai | [Keep full comment text when rendering Phabricator revisions](https://github.com/mozilla/bugbug/pull/7197) |
-| [**GoogleCloudPlatform/professional-services-data-validator**](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | `535` |  | [Convert Impala connection options given as strings to their real types](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1852)<br/>[Use UTF-8 for stdout so non-ASCII results can be printed on Windows](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1853)<br/>[Do not split --filters on PostgreSQL style :: type casts](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1861) |
+| [**GoogleCloudPlatform/professional-services-data-validator**](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | `536` |  | [Convert Impala connection options given as strings to their real types](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1852)<br/>[Use UTF-8 for stdout so non-ASCII results can be printed on Windows](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1853)<br/>[Do not split --filters on PostgreSQL style :: type casts](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1861) |
 | [**readthedocs/sphinx-autoapi**](https://github.com/readthedocs/sphinx-autoapi) | `497` |  | [Fix recursion when a nested class inherits from its enclosing class](https://github.com/readthedocs/sphinx-autoapi/pull/572)<br/>[Fix method signatures when self is positional-only or absent](https://github.com/readthedocs/sphinx-autoapi/pull/577) |
 | [**fortran-lang/fortls**](https://github.com/fortran-lang/fortls) | `348` | fortls | [Handle mixed quotes in find_paren_match](https://github.com/fortran-lang/fortls/pull/569) |
 | [**wradlib/wradlib**](https://github.com/wradlib/wradlib) | `323` | hacktoberfest | [Show filename in read_gamic_hdf5 error for non-GAMIC files](https://github.com/wradlib/wradlib/pull/803) |
@@ -58,7 +58,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**openSUSE/opi**](https://github.com/openSUSE/opi) | `290` | cli | [Fetch file:// and $releasever gpgkeys correctly when asking to keep a key](https://github.com/openSUSE/opi/pull/227) |
 | [**scikit-hep/uproot5**](https://github.com/scikit-hep/uproot5) | `274` | analysis | [Handle negative and out-of-range indexes in TAxis.__getitem__](https://github.com/scikit-hep/uproot5/pull/1765) |
 | [**StingraySoftware/stingray**](https://github.com/StingraySoftware/stingray) | `227` | astronomy | [Fix gti __all__ entry and accept list GTIs in get_btis](https://github.com/StingraySoftware/stingray/pull/991)<br/>[Fix vertical hue lines and ref_angle in power-color state labels](https://github.com/StingraySoftware/stingray/pull/999) |
-| [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `171` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284)<br/>[#281: clear IMAP mailbox state when EXPUNGE fails in close_mailbox](https://github.com/getmail6/getmail6/pull/290) |
+| [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `172` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284)<br/>[#281: clear IMAP mailbox state when EXPUNGE fails in close_mailbox](https://github.com/getmail6/getmail6/pull/290) |
 | [**scikit-hep/hist**](https://github.com/scikit-hep/hist) | `140` | histogram | [Raise for missing exact names in wildcard category lists](https://github.com/scikit-hep/hist/pull/738)<br/>[Accept NumPy integer arrays in from_columns](https://github.com/scikit-hep/hist/pull/748) |
 | [**openfoodfacts/open-prices**](https://github.com/openfoodfacts/open-prices) | `111` | crowdsourcing | [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) |
 | [**theochem/grid**](https://github.com/theochem/grid) | `102` | clenshaw curtis | [Return an empty LocalGrid when no point is within the radius](https://github.com/theochem/grid/pull/344)<br/>[Accept NumPy integers when indexing Grid, OneDGrid and PeriodicGrid](https://github.com/theochem/grid/pull/346) |
@@ -77,7 +77,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 81 PRs across 66 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
+<summary><b>🕐 In review: 83 PRs across 67 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
 
 <br/>
 
@@ -91,10 +91,10 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy/pull/10227) | `39k` | Add sort_keys=True to tool call/result JSON serialization |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents/pull/2950) | `30k` | Accept AgentImage/AgentAudio state values for image/audio tool inputs |
 | [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot/pull/34806) | `16k` | Tools: param_unpack.py: support param.pck files with defaults |
+| [nltk/nltk](https://github.com/nltk/nltk/pull/4021) | `15k` | Replace Python 2 protocol methods and stale names that Python 3 never reaches |
 | [pyro-ppl/pyro](https://github.com/pyro-ppl/pyro/pull/3500) | `9.1k` | Restore deep_getattr in pyro.infer.autoguide.utils |
 | [arrow-py/arrow](https://github.com/arrow-py/arrow/pull/1391) | `9.1k` | Use calendar months for humanize month and quarter granularity |
 | [marshmallow-code/marshmallow](https://github.com/marshmallow-code/marshmallow/pull/3073) | `7.2k` | Reject leading/trailing hyphen in the last domain label in validate.Email |
-| [python-pendulum/pendulum](https://github.com/python-pendulum/pendulum/pull/1064) | `6.7k` | Fix precise_diff counting partial months as full months |
 
 <sub>[See every open PR →](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20author%3Asyahra712%20-user%3Aahnaf-lab%20-user%3Asyahra712)</sub>
 
