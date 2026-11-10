@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [Multidrop IMAP: keep an encoded envelope header as one text value](https://github.com/getmail6/getmail6/pull/292) in **getmail6/getmail6** · 2026-11-09
+**Latest merge:** [Handle indefinite Range bound of 0 in normalize](https://github.com/ga4gh/vrs-python/pull/688) in **ga4gh/vrs-python** · 2026-11-10
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -46,15 +46,16 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**mpmath/mpmath**](https://github.com/mpmath/mpmath) | `1.2k` | arbitrary precision | [Flip rounding direction when negating in mpf_gamma(type=3) (fixes iv.loggamma)](https://github.com/mpmath/mpmath/pull/1204)<br/>[Respect directed rounding in mpf_atan2() (fixes iv.atan2 enclosures)](https://github.com/mpmath/mpmath/pull/1203)<br/>[Call lower_gamma() directly in the _gamma3() fallback (fixes #467)](https://github.com/mpmath/mpmath/pull/1210)<br/>[Evaluate fp.bessely() at integer order in mp context (fixes #497)](https://github.com/mpmath/mpmath/pull/1212) |
 | [**pytroll/satpy**](https://github.com/pytroll/satpy) | `1.2k` | closember | [Fix debug log message for repeated record classes in eps_l1b reader](https://github.com/pytroll/satpy/pull/3506) |
 | [**apache/iceberg-python**](https://github.com/apache/iceberg-python) | `1.2k` | apache | [Preserve null maps when projecting a map of structs](https://github.com/apache/iceberg-python/pull/4118) |
+| [**guessit-io/guessit**](https://github.com/guessit-io/guessit) | `950` | filename | [Detect HDR10+](https://github.com/guessit-io/guessit/pull/972) |
 | [**ArduPilot/pymavlink**](https://github.com/ArduPilot/pymavlink) | `742` |  | [Mavwp: keep legacy rally file altitude in metres](https://github.com/ArduPilot/pymavlink/pull/1316) |
 | [**SciTools/iris**](https://github.com/SciTools/iris) | `730` | data analysis | [Show the offending object in CubeList non-cube error](https://github.com/SciTools/iris/pull/7348) |
-| [**datalad/datalad**](https://github.com/datalad/datalad) | `675` | closember | [Close the reader pipe at EOF so an abandoned result generator does not leak FDs](https://github.com/datalad/datalad/pull/7971) |
+| [**datalad/datalad**](https://github.com/datalad/datalad) | `676` | closember | [Close the reader pipe at EOF so an abandoned result generator does not leak FDs](https://github.com/datalad/datalad/pull/7971) |
 | [**pymc-devs/pytensor**](https://github.com/pymc-devs/pytensor) | `649` | ai | [Index 0-d MakeVector inputs instead of calling .item() in numba](https://github.com/pymc-devs/pytensor/pull/2503) |
 | [**mozilla/bugbug**](https://github.com/mozilla/bugbug) | `579` | agentic ai | [Keep full comment text when rendering Phabricator revisions](https://github.com/mozilla/bugbug/pull/7197) |
-| [**GoogleCloudPlatform/professional-services-data-validator**](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | `537` |  | [Convert Impala connection options given as strings to their real types](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1852)<br/>[Use UTF-8 for stdout so non-ASCII results can be printed on Windows](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1853)<br/>[Do not split --filters on PostgreSQL style :: type casts](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1861)<br/>[Ignore a target primary key with columns missing from the source](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1870)<br/>[Keep the requested log level when a deprecated option is used](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1868)<br/>[Fail configs list when no validation YAML files are found](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1869) |
+| [**GoogleCloudPlatform/professional-services-data-validator**](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | `537` |  | [Convert Impala connection options given as strings to their real types](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1852)<br/>[Use UTF-8 for stdout so non-ASCII results can be printed on Windows](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1853)<br/>[Do not split --filters on PostgreSQL style :: type casts](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1861)<br/>[Ignore a target primary key with columns missing from the source](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1870)<br/>[Keep the requested log level when a deprecated option is used](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1868)<br/>[Fail configs list when no validation YAML files are found](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1869)<br/>[Keep NULL binary UUIDs as NULL when casting them to strings](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1872) |
 | [**readthedocs/sphinx-autoapi**](https://github.com/readthedocs/sphinx-autoapi) | `497` |  | [Fix recursion when a nested class inherits from its enclosing class](https://github.com/readthedocs/sphinx-autoapi/pull/572)<br/>[Fix method signatures when self is positional-only or absent](https://github.com/readthedocs/sphinx-autoapi/pull/577) |
 | [**fortran-lang/fortls**](https://github.com/fortran-lang/fortls) | `348` | fortls | [Handle mixed quotes in find_paren_match](https://github.com/fortran-lang/fortls/pull/569) |
-| [**wradlib/wradlib**](https://github.com/wradlib/wradlib) | `323` | hacktoberfest | [Show filename in read_gamic_hdf5 error for non-GAMIC files](https://github.com/wradlib/wradlib/pull/803) |
+| [**wradlib/wradlib**](https://github.com/wradlib/wradlib) | `324` | hacktoberfest | [Show filename in read_gamic_hdf5 error for non-GAMIC files](https://github.com/wradlib/wradlib/pull/803) |
 | [**gammapy/gammapy**](https://github.com/gammapy/gammapy) | `294` | astronomy | [Fix missing f-prefix in two error messages](https://github.com/gammapy/gammapy/pull/6918)<br/>[Fix to_dict() for big-endian arrays in four models](https://github.com/gammapy/gammapy/pull/6952) |
 | [**openSUSE/opi**](https://github.com/openSUSE/opi) | `290` | cli | [Fetch file:// and $releasever gpgkeys correctly when asking to keep a key](https://github.com/openSUSE/opi/pull/227) |
 | [**scikit-hep/uproot5**](https://github.com/scikit-hep/uproot5) | `274` | analysis | [Handle negative and out-of-range indexes in TAxis.__getitem__](https://github.com/scikit-hep/uproot5/pull/1765) |
@@ -64,7 +65,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**scikit-hep/hist**](https://github.com/scikit-hep/hist) | `140` | histogram | [Raise for missing exact names in wildcard category lists](https://github.com/scikit-hep/hist/pull/738)<br/>[Accept NumPy integer arrays in from_columns](https://github.com/scikit-hep/hist/pull/748) |
 | [**openfoodfacts/open-prices**](https://github.com/openfoodfacts/open-prices) | `111` | crowdsourcing | [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) |
 | [**theochem/grid**](https://github.com/theochem/grid) | `102` | clenshaw curtis | [Return an empty LocalGrid when no point is within the radius](https://github.com/theochem/grid/pull/344)<br/>[Accept NumPy integers when indexing Grid, OneDGrid and PeriodicGrid](https://github.com/theochem/grid/pull/346) |
-| [**ga4gh/vrs-python**](https://github.com/ga4gh/vrs-python) | `66` | bioinformatics | [Reject trailing input in beacon, gnomAD and SPDI translators](https://github.com/ga4gh/vrs-python/pull/670) |
+| [**ga4gh/vrs-python**](https://github.com/ga4gh/vrs-python) | `66` | bioinformatics | [Reject trailing input in beacon, gnomAD and SPDI translators](https://github.com/ga4gh/vrs-python/pull/670)<br/>[Handle indefinite Range bound of 0 in normalize](https://github.com/ga4gh/vrs-python/pull/688) |
 | [**pypa/distlib**](https://github.com/pypa/distlib) | `66` | Python packaging | [Use the Python-2.0.1 SPDX license identifier](https://github.com/pypa/distlib/pull/276) |
 | [**sugarlabs/www-v2**](https://github.com/sugarlabs/www-v2) | `64` | hacktoberfest | [Redirect /music-blocks to /musicblocks](https://github.com/sugarlabs/www-v2/pull/1082) |
 | [**scipy/xsf**](https://github.com/scipy/xsf) | `43` |  | [Smirnovp: avoid int overflow in derivative coefficient for large n](https://github.com/scipy/xsf/pull/320) |
@@ -80,7 +81,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 97 PRs across 78 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
+<summary><b>🕐 In review: 94 PRs across 76 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
 
 <br/>
 
