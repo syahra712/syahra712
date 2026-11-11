@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [Handle indefinite Range bound of 0 in normalize](https://github.com/ga4gh/vrs-python/pull/688) in **ga4gh/vrs-python** · 2026-11-10
+**Latest merge:** [Write RNTuple data whose lists are all empty](https://github.com/scikit-hep/uproot5/pull/1812) in **scikit-hep/uproot5** · 2026-11-10
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -58,7 +58,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**wradlib/wradlib**](https://github.com/wradlib/wradlib) | `324` | hacktoberfest | [Show filename in read_gamic_hdf5 error for non-GAMIC files](https://github.com/wradlib/wradlib/pull/803) |
 | [**gammapy/gammapy**](https://github.com/gammapy/gammapy) | `294` | astronomy | [Fix missing f-prefix in two error messages](https://github.com/gammapy/gammapy/pull/6918)<br/>[Fix to_dict() for big-endian arrays in four models](https://github.com/gammapy/gammapy/pull/6952) |
 | [**openSUSE/opi**](https://github.com/openSUSE/opi) | `290` | cli | [Fetch file:// and $releasever gpgkeys correctly when asking to keep a key](https://github.com/openSUSE/opi/pull/227) |
-| [**scikit-hep/uproot5**](https://github.com/scikit-hep/uproot5) | `274` | analysis | [Handle negative and out-of-range indexes in TAxis.__getitem__](https://github.com/scikit-hep/uproot5/pull/1765) |
+| [**scikit-hep/uproot5**](https://github.com/scikit-hep/uproot5) | `274` | analysis | [Handle negative and out-of-range indexes in TAxis.__getitem__](https://github.com/scikit-hep/uproot5/pull/1765)<br/>[Write RNTuple data whose lists are all empty](https://github.com/scikit-hep/uproot5/pull/1812) |
 | [**StingraySoftware/stingray**](https://github.com/StingraySoftware/stingray) | `227` | astronomy | [Fix gti __all__ entry and accept list GTIs in get_btis](https://github.com/StingraySoftware/stingray/pull/991)<br/>[Fix vertical hue lines and ref_angle in power-color state labels](https://github.com/StingraySoftware/stingray/pull/999) |
 | [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `173` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284)<br/>[#281: clear IMAP mailbox state when EXPUNGE fails in close_mailbox](https://github.com/getmail6/getmail6/pull/290)<br/>[Multidrop IMAP: keep an encoded envelope header as one text value](https://github.com/getmail6/getmail6/pull/292) |
 | [**theochem/iodata**](https://github.com/theochem/iodata) | `173` | computational biology | [Keep MOL2 atomic charges when a status bit follows them](https://github.com/theochem/iodata/pull/410) |
@@ -81,7 +81,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 94 PRs across 76 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
+<summary><b>🕐 In review: 93 PRs across 75 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
 
 <br/>
 
