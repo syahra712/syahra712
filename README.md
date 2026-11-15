@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [Accept plain lists and scalars in fill_flattened](https://github.com/scikit-hep/hist/pull/759) in **scikit-hep/hist** · 2026-11-13
+**Latest merge:** [Handle infinite complex arguments in root() and cbrt()](https://github.com/mpmath/mpmath/pull/1227) in **mpmath/mpmath** · 2026-11-14
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -43,13 +43,13 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**pybamm-team/PyBaMM**](https://github.com/pybamm-team/PyBaMM) | `1.7k` | batteries | [Fix kinetics `__all__` listing inverse kinetics submodules](https://github.com/pybamm-team/PyBaMM/pull/5970) |
 | [**fossasia/voxbento**](https://github.com/fossasia/voxbento) | `1.5k` | web API · access control | [Scope admin transcript routes to the requested event](https://github.com/fossasia/voxbento/pull/813) |
 | [**fossasia/veditor**](https://github.com/fossasia/veditor) | `1.5k` |  | [Show app INFO logs so the dev verification link is visible](https://github.com/fossasia/veditor/pull/317) |
-| [**mpmath/mpmath**](https://github.com/mpmath/mpmath) | `1.2k` | arbitrary precision | [Flip rounding direction when negating in mpf_gamma(type=3) (fixes iv.loggamma)](https://github.com/mpmath/mpmath/pull/1204)<br/>[Respect directed rounding in mpf_atan2() (fixes iv.atan2 enclosures)](https://github.com/mpmath/mpmath/pull/1203)<br/>[Call lower_gamma() directly in the _gamma3() fallback (fixes #467)](https://github.com/mpmath/mpmath/pull/1210)<br/>[Evaluate fp.bessely() at integer order in mp context (fixes #497)](https://github.com/mpmath/mpmath/pull/1212) |
+| [**mpmath/mpmath**](https://github.com/mpmath/mpmath) | `1.2k` | arbitrary precision | [Flip rounding direction when negating in mpf_gamma(type=3) (fixes iv.loggamma)](https://github.com/mpmath/mpmath/pull/1204)<br/>[Respect directed rounding in mpf_atan2() (fixes iv.atan2 enclosures)](https://github.com/mpmath/mpmath/pull/1203)<br/>[Call lower_gamma() directly in the _gamma3() fallback (fixes #467)](https://github.com/mpmath/mpmath/pull/1210)<br/>[Evaluate fp.bessely() at integer order in mp context (fixes #497)](https://github.com/mpmath/mpmath/pull/1212)<br/>[Handle infinite complex arguments in root() and cbrt()](https://github.com/mpmath/mpmath/pull/1227) |
 | [**pytroll/satpy**](https://github.com/pytroll/satpy) | `1.2k` | closember | [Fix debug log message for repeated record classes in eps_l1b reader](https://github.com/pytroll/satpy/pull/3506) |
 | [**apache/iceberg-python**](https://github.com/apache/iceberg-python) | `1.2k` | apache | [Preserve null maps when projecting a map of structs](https://github.com/apache/iceberg-python/pull/4118) |
-| [**guessit-io/guessit**](https://github.com/guessit-io/guessit) | `949` | filename | [Detect HDR10+](https://github.com/guessit-io/guessit/pull/972) |
+| [**guessit-io/guessit**](https://github.com/guessit-io/guessit) | `950` | filename | [Detect HDR10+](https://github.com/guessit-io/guessit/pull/972) |
 | [**ArduPilot/pymavlink**](https://github.com/ArduPilot/pymavlink) | `743` |  | [Mavwp: keep legacy rally file altitude in metres](https://github.com/ArduPilot/pymavlink/pull/1316) |
 | [**SciTools/iris**](https://github.com/SciTools/iris) | `730` | data analysis | [Show the offending object in CubeList non-cube error](https://github.com/SciTools/iris/pull/7348) |
-| [**datalad/datalad**](https://github.com/datalad/datalad) | `677` | closember | [Close the reader pipe at EOF so an abandoned result generator does not leak FDs](https://github.com/datalad/datalad/pull/7971)<br/>[LineSplitter: do not split a CRLF that arrives in two chunks](https://github.com/datalad/datalad/pull/7989)<br/>[Ensure_list_from_str: drop empty items, so a multi-line url_re no longer matches every URL](https://github.com/datalad/datalad/pull/7995) |
+| [**datalad/datalad**](https://github.com/datalad/datalad) | `676` | closember | [Close the reader pipe at EOF so an abandoned result generator does not leak FDs](https://github.com/datalad/datalad/pull/7971)<br/>[LineSplitter: do not split a CRLF that arrives in two chunks](https://github.com/datalad/datalad/pull/7989)<br/>[Ensure_list_from_str: drop empty items, so a multi-line url_re no longer matches every URL](https://github.com/datalad/datalad/pull/7995) |
 | [**pymc-devs/pytensor**](https://github.com/pymc-devs/pytensor) | `650` | ai | [Index 0-d MakeVector inputs instead of calling .item() in numba](https://github.com/pymc-devs/pytensor/pull/2503) |
 | [**mozilla/bugbug**](https://github.com/mozilla/bugbug) | `581` | agentic ai | [Keep full comment text when rendering Phabricator revisions](https://github.com/mozilla/bugbug/pull/7197) |
 | [**GoogleCloudPlatform/professional-services-data-validator**](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | `537` |  | [Convert Impala connection options given as strings to their real types](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1852)<br/>[Use UTF-8 for stdout so non-ASCII results can be printed on Windows](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1853)<br/>[Do not split --filters on PostgreSQL style :: type casts](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1861)<br/>[Ignore a target primary key with columns missing from the source](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1870)<br/>[Keep the requested log level when a deprecated option is used](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1868)<br/>[Fail configs list when no validation YAML files are found](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1869)<br/>[Keep NULL binary UUIDs as NULL when casting them to strings](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1872)<br/>[Trim spaces around items in comma separated column arguments](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1883)<br/>[List the files in a GCS directory given without a trailing slash](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1874)<br/>[Only replace the leading zero in Oracle and Db2 strftime %e](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1871) |
@@ -82,7 +82,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 118 PRs across 80 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
+<summary><b>🕐 In review: 117 PRs across 80 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, smolagents…</summary>
 
 <br/>
 
