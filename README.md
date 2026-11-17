@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [Accept list and tuple bin edges in RooCurve.to_boost](https://github.com/scikit-hep/uproot/pull/1839) in **scikit-hep/uproot** · 2026-11-16
+**Latest merge:** [Replace Python 2 protocol methods and stale names that Python 3 never reaches](https://github.com/nltk/nltk/pull/4021) in **nltk/nltk** · 2026-11-16
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -31,7 +31,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 |---|:--:|---|---|
 | [**docling-project/docling**](https://github.com/docling-project/docling) | `71k` | document AI · VLMs | [Coerce MLX bfloat16 logprobs to float in VlmPredictionToken](https://github.com/docling-project/docling/pull/4005) |
 | [**BerriAI/litellm**](https://github.com/BerriAI/litellm) | `63k` | LLM gateway · billing | [Don't retire a completed batch from cost recovery while output_file_id is lagging](https://github.com/BerriAI/litellm/pull/37715) |
-| [**nltk/nltk**](https://github.com/nltk/nltk) | `15k` | machine learning | [Fix bare raise outside except block in sem.util.root_semrep](https://github.com/nltk/nltk/pull/3997)<br/>[Fix NameError in UndirectedTypeRaise.can_combine](https://github.com/nltk/nltk/pull/3999) |
+| [**nltk/nltk**](https://github.com/nltk/nltk) | `15k` | machine learning | [Fix bare raise outside except block in sem.util.root_semrep](https://github.com/nltk/nltk/pull/3997)<br/>[Fix NameError in UndirectedTypeRaise.can_combine](https://github.com/nltk/nltk/pull/3999)<br/>[Replace Python 2 protocol methods and stale names that Python 3 never reaches](https://github.com/nltk/nltk/pull/4021) |
 | [**sshuttle/sshuttle**](https://github.com/sshuttle/sshuttle) | `14k` | networking · firewalls | [pf exclusions ignored under a wider include since rules became quick](https://github.com/sshuttle/sshuttle/pull/1270)<br/>[Skip hostwatch when the server has no os.fork](https://github.com/sshuttle/sshuttle/pull/1271)<br/>[Keep the tunnel up when a DNS or UDP reply cannot be sent](https://github.com/sshuttle/sshuttle/pull/1273)<br/>[Drop the zone id of a link-local nameserver from nft rules](https://github.com/sshuttle/sshuttle/pull/1272)<br/>[Reject an out-of-range --listen port with a clear error](https://github.com/sshuttle/sshuttle/pull/1312)<br/>[Report an invalid --listen value as a usage error](https://github.com/sshuttle/sshuttle/pull/1313)<br/>[Reject --tmark values that are not plain hex](https://github.com/sshuttle/sshuttle/pull/1314)<br/>[Match an IPv6 nameserver with /128, not /32](https://github.com/sshuttle/sshuttle/pull/1323)<br/>[Accept one-character namespace names and segments](https://github.com/sshuttle/sshuttle/pull/1322)<br/>[Report an invalid --remote port as a fatal error](https://github.com/sshuttle/sshuttle/pull/1320)<br/>[Ignore blank lines and indented comments in config files](https://github.com/sshuttle/sshuttle/pull/1319)<br/>[Set up a family that has nameservers but no subnets](https://github.com/sshuttle/sshuttle/pull/1321)<br/>[Don't add IPv6 auto nets when there is no IPv6 listener](https://github.com/sshuttle/sshuttle/pull/1325) |
 | [**biopython/biopython**](https://github.com/biopython/biopython) | `5.3k` | bioinformatics | [Fix unformatted placeholder in double complement error message](https://github.com/biopython/biopython/pull/5393) |
 | [**tox-dev/tox**](https://github.com/tox-dev/tox) | `4k` | Python test tooling | [Keep the packaging backend captured with --no-capture](https://github.com/tox-dev/tox/pull/4164)<br/>[Keep --no-index when an index URL follows it](https://github.com/tox-dev/tox/pull/4187) |
@@ -50,7 +50,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**ArduPilot/pymavlink**](https://github.com/ArduPilot/pymavlink) | `744` |  | [Mavwp: keep legacy rally file altitude in metres](https://github.com/ArduPilot/pymavlink/pull/1316) |
 | [**SciTools/iris**](https://github.com/SciTools/iris) | `730` | data analysis | [Show the offending object in CubeList non-cube error](https://github.com/SciTools/iris/pull/7348) |
 | [**datalad/datalad**](https://github.com/datalad/datalad) | `676` | closember | [Close the reader pipe at EOF so an abandoned result generator does not leak FDs](https://github.com/datalad/datalad/pull/7971)<br/>[LineSplitter: do not split a CRLF that arrives in two chunks](https://github.com/datalad/datalad/pull/7989)<br/>[Ensure_list_from_str: drop empty items, so a multi-line url_re no longer matches every URL](https://github.com/datalad/datalad/pull/7995) |
-| [**pymc-devs/pytensor**](https://github.com/pymc-devs/pytensor) | `651` | ai | [Index 0-d MakeVector inputs instead of calling .item() in numba](https://github.com/pymc-devs/pytensor/pull/2503) |
+| [**pymc-devs/pytensor**](https://github.com/pymc-devs/pytensor) | `652` | ai | [Index 0-d MakeVector inputs instead of calling .item() in numba](https://github.com/pymc-devs/pytensor/pull/2503) |
 | [**mozilla/bugbug**](https://github.com/mozilla/bugbug) | `581` | agentic ai | [Keep full comment text when rendering Phabricator revisions](https://github.com/mozilla/bugbug/pull/7197) |
 | [**GoogleCloudPlatform/professional-services-data-validator**](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | `537` |  | [Convert Impala connection options given as strings to their real types](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1852)<br/>[Use UTF-8 for stdout so non-ASCII results can be printed on Windows](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1853)<br/>[Do not split --filters on PostgreSQL style :: type casts](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1861)<br/>[Ignore a target primary key with columns missing from the source](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1870)<br/>[Keep the requested log level when a deprecated option is used](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1868)<br/>[Fail configs list when no validation YAML files are found](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1869)<br/>[Keep NULL binary UUIDs as NULL when casting them to strings](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1872)<br/>[Trim spaces around items in comma separated column arguments](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1883)<br/>[List the files in a GCS directory given without a trailing slash](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1874)<br/>[Only replace the leading zero in Oracle and Db2 strftime %e](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1871) |
 | [**holoviz/param**](https://github.com/holoviz/param) | `523` | attributes | [Use a class-level default set after the parameters were looked up](https://github.com/holoviz/param/pull/1219) |
@@ -84,7 +84,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 112 PRs across 75 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, ardupilot…</summary>
+<summary><b>🕐 In review: 111 PRs across 74 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, ardupilot…</summary>
 
 <br/>
 
@@ -97,11 +97,11 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [agno-agi/agno](https://github.com/agno-agi/agno/pull/9596) | `43k` | Chain exception causes in tool, model, and vectordb error paths |
 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy/pull/10227) | `39k` | Add sort_keys=True to tool call/result JSON serialization |
 | [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot/pull/34806) | `16k` | Tools: param_unpack.py: support param.pck files with defaults |
-| [nltk/nltk](https://github.com/nltk/nltk/pull/4021) | `15k` | Replace Python 2 protocol methods and stale names that Python 3 never reaches |
 | [pyro-ppl/pyro](https://github.com/pyro-ppl/pyro/pull/3500) | `9.1k` | Restore deep_getattr in pyro.infer.autoguide.utils |
 | [arrow-py/arrow](https://github.com/arrow-py/arrow/pull/1391) | `9.1k` | Use calendar months for humanize month and quarter granularity |
 | [marshmallow-code/marshmallow](https://github.com/marshmallow-code/marshmallow/pull/3073) | `7.2k` | Reject leading/trailing hyphen in the last domain label in validate.Email |
 | [containers/podman-compose](https://github.com/containers/podman-compose/pull/1581) | `6.3k` | Support passing --scale multiple times |
+| [skorch-dev/skorch](https://github.com/skorch-dev/skorch/pull/1175) | `6.2k` | Restore best score in PassthroughScoring when continuing training |
 
 <sub>[See every open PR →](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20author%3Asyahra712%20-user%3Aahnaf-lab%20-user%3Asyahra712)</sub>
 
