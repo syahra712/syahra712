@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [Read pypy-3.10 as one factor next to other factors](https://github.com/tox-dev/tox/pull/4404) in **tox-dev/tox** · 2026-11-17
+**Latest merge:** [Utils: fix error message for duplicate entry points](https://github.com/QubesOS/qubes-core-admin/pull/916) in **QubesOS/qubes-core-admin** · 2026-11-17
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -46,7 +46,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**mpmath/mpmath**](https://github.com/mpmath/mpmath) | `1.2k` | arbitrary precision | [Flip rounding direction when negating in mpf_gamma(type=3) (fixes iv.loggamma)](https://github.com/mpmath/mpmath/pull/1204)<br/>[Respect directed rounding in mpf_atan2() (fixes iv.atan2 enclosures)](https://github.com/mpmath/mpmath/pull/1203)<br/>[Call lower_gamma() directly in the _gamma3() fallback (fixes #467)](https://github.com/mpmath/mpmath/pull/1210)<br/>[Evaluate fp.bessely() at integer order in mp context (fixes #497)](https://github.com/mpmath/mpmath/pull/1212)<br/>[Handle infinite complex arguments in root() and cbrt()](https://github.com/mpmath/mpmath/pull/1227)<br/>[Return 0 from fp.rgamma() at the poles of gamma()](https://github.com/mpmath/mpmath/pull/1228) |
 | [**pytroll/satpy**](https://github.com/pytroll/satpy) | `1.2k` | closember | [Fix debug log message for repeated record classes in eps_l1b reader](https://github.com/pytroll/satpy/pull/3506) |
 | [**apache/iceberg-python**](https://github.com/apache/iceberg-python) | `1.2k` | apache | [Preserve null maps when projecting a map of structs](https://github.com/apache/iceberg-python/pull/4118) |
-| [**guessit-io/guessit**](https://github.com/guessit-io/guessit) | `952` | filename | [Detect HDR10+](https://github.com/guessit-io/guessit/pull/972) |
+| [**guessit-io/guessit**](https://github.com/guessit-io/guessit) | `952` | filename | [Detect HDR10+](https://github.com/guessit-io/guessit/pull/972)<br/>[Keep every dot of an abbreviation that starts the title](https://github.com/guessit-io/guessit/pull/995) |
 | [**ArduPilot/pymavlink**](https://github.com/ArduPilot/pymavlink) | `745` |  | [Mavwp: keep legacy rally file altitude in metres](https://github.com/ArduPilot/pymavlink/pull/1316) |
 | [**SciTools/iris**](https://github.com/SciTools/iris) | `730` | data analysis | [Show the offending object in CubeList non-cube error](https://github.com/SciTools/iris/pull/7348) |
 | [**datalad/datalad**](https://github.com/datalad/datalad) | `676` | closember | [Close the reader pipe at EOF so an abandoned result generator does not leak FDs](https://github.com/datalad/datalad/pull/7971)<br/>[LineSplitter: do not split a CRLF that arrives in two chunks](https://github.com/datalad/datalad/pull/7989)<br/>[Ensure_list_from_str: drop empty items, so a multi-line url_re no longer matches every URL](https://github.com/datalad/datalad/pull/7995) |
@@ -65,6 +65,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `174` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284)<br/>[#281: clear IMAP mailbox state when EXPUNGE fails in close_mailbox](https://github.com/getmail6/getmail6/pull/290)<br/>[Multidrop IMAP: keep an encoded envelope header as one text value](https://github.com/getmail6/getmail6/pull/292)<br/>[Report malformed tuple settings as configuration errors](https://github.com/getmail6/getmail6/pull/293)<br/>[Use an absolute uid_cache file name instead of ignoring it](https://github.com/getmail6/getmail6/pull/294)<br/>[Parse IMAP LIST responses with a NIL delimiter or mixed-case flags](https://github.com/getmail6/getmail6/pull/295)<br/>[Don't crash when a filter or MDA writes non-UTF-8 text to stderr](https://github.com/getmail6/getmail6/pull/296) |
 | [**theochem/iodata**](https://github.com/theochem/iodata) | `174` | computational biology | [Keep MOL2 atomic charges when a status bit follows them](https://github.com/theochem/iodata/pull/410)<br/>[Compare MWFN electron counts with a tolerance](https://github.com/theochem/iodata/pull/432) |
 | [**scikit-hep/particle**](https://github.com/scikit-hep/particle) | `168` | analysis | [R-parity of squarks and sleptons](https://github.com/scikit-hep/particle/pull/811)<br/>[Format negative values in str_with_unc](https://github.com/scikit-hep/particle/pull/827) |
+| [**QubesOS/qubes-core-admin**](https://github.com/QubesOS/qubes-core-admin) | `150` |  | [Utils: fix error message for duplicate entry points](https://github.com/QubesOS/qubes-core-admin/pull/916) |
 | [**scikit-hep/hist**](https://github.com/scikit-hep/hist) | `140` | histogram | [Raise for missing exact names in wildcard category lists](https://github.com/scikit-hep/hist/pull/738)<br/>[Accept NumPy integer arrays in from_columns](https://github.com/scikit-hep/hist/pull/748)<br/>[Support dividing a Stack by a scalar or array](https://github.com/scikit-hep/hist/pull/761)<br/>[Accept plain lists and scalars in fill_flattened](https://github.com/scikit-hep/hist/pull/759) |
 | [**openfoodfacts/open-prices**](https://github.com/openfoodfacts/open-prices) | `112` | crowdsourcing | [API: accept `location_id` when updating a proof](https://github.com/openfoodfacts/open-prices/pull/1476) |
 | [**theochem/grid**](https://github.com/theochem/grid) | `102` | clenshaw curtis | [Return an empty LocalGrid when no point is within the radius](https://github.com/theochem/grid/pull/344)<br/>[Accept NumPy integers when indexing Grid, OneDGrid and PeriodicGrid](https://github.com/theochem/grid/pull/346) |
@@ -84,7 +85,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 109 PRs across 73 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, ardupilot…</summary>
+<summary><b>🕐 In review: 107 PRs across 71 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, ardupilot…</summary>
 
 <br/>
 
