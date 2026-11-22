@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [Fix loss of accuracy in harmonic() for tiny real arguments](https://github.com/mpmath/mpmath/pull/1236) in **mpmath/mpmath** · 2026-11-21
+**Latest merge:** [URL-encode Author.search and Work.search query parameters](https://github.com/internetarchive/openlibrary-client/pull/454) in **internetarchive/openlibrary-client** · 2026-11-22
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -51,13 +51,14 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**SciTools/iris**](https://github.com/SciTools/iris) | `729` | data analysis | [Show the offending object in CubeList non-cube error](https://github.com/SciTools/iris/pull/7348)<br/>[Return the datum's inverse flattening from GeogCS](https://github.com/SciTools/iris/pull/7355) |
 | [**datalad/datalad**](https://github.com/datalad/datalad) | `676` | closember | [Close the reader pipe at EOF so an abandoned result generator does not leak FDs](https://github.com/datalad/datalad/pull/7971)<br/>[LineSplitter: do not split a CRLF that arrives in two chunks](https://github.com/datalad/datalad/pull/7989)<br/>[Ensure_list_from_str: drop empty items, so a multi-line url_re no longer matches every URL](https://github.com/datalad/datalad/pull/7995)<br/>[Json_py.load: honor compressed when re-reading for fixups](https://github.com/datalad/datalad/pull/8000)<br/>[EnsureBool: accept bytes labels as documented](https://github.com/datalad/datalad/pull/7998) |
 | [**pymc-devs/pytensor**](https://github.com/pymc-devs/pytensor) | `654` | ai | [Index 0-d MakeVector inputs instead of calling .item() in numba](https://github.com/pymc-devs/pytensor/pull/2503)<br/>[Propagate NaN in median like numpy](https://github.com/pymc-devs/pytensor/pull/2695) |
-| [**mozilla/bugbug**](https://github.com/mozilla/bugbug) | `580` | agentic ai | [Keep full comment text when rendering Phabricator revisions](https://github.com/mozilla/bugbug/pull/7197) |
+| [**mozilla/bugbug**](https://github.com/mozilla/bugbug) | `581` | agentic ai | [Keep full comment text when rendering Phabricator revisions](https://github.com/mozilla/bugbug/pull/7197) |
 | [**GoogleCloudPlatform/professional-services-data-validator**](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | `536` |  | [Convert Impala connection options given as strings to their real types](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1852)<br/>[Use UTF-8 for stdout so non-ASCII results can be printed on Windows](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1853)<br/>[Do not split --filters on PostgreSQL style :: type casts](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1861)<br/>[Ignore a target primary key with columns missing from the source](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1870)<br/>[Keep the requested log level when a deprecated option is used](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1868)<br/>[Fail configs list when no validation YAML files are found](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1869)<br/>[Keep NULL binary UUIDs as NULL when casting them to strings](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1872)<br/>[Trim spaces around items in comma separated column arguments](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1883)<br/>[List the files in a GCS directory given without a trailing slash](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1874)<br/>[Only replace the leading zero in Oracle and Db2 strftime %e](https://github.com/GoogleCloudPlatform/professional-services-data-validator/pull/1871) |
 | [**holoviz/param**](https://github.com/holoviz/param) | `522` | attributes | [Use a class-level default set after the parameters were looked up](https://github.com/holoviz/param/pull/1219) |
+| [**internetarchive/openlibrary-client**](https://github.com/internetarchive/openlibrary-client) | `510` |  | [URL-encode Author.search and Work.search query parameters](https://github.com/internetarchive/openlibrary-client/pull/454) |
 | [**readthedocs/sphinx-autoapi**](https://github.com/readthedocs/sphinx-autoapi) | `497` |  | [Fix recursion when a nested class inherits from its enclosing class](https://github.com/readthedocs/sphinx-autoapi/pull/572)<br/>[Fix method signatures when self is positional-only or absent](https://github.com/readthedocs/sphinx-autoapi/pull/577) |
 | [**fortran-lang/fortls**](https://github.com/fortran-lang/fortls) | `351` | fortls | [Handle mixed quotes in find_paren_match](https://github.com/fortran-lang/fortls/pull/569) |
 | [**wradlib/wradlib**](https://github.com/wradlib/wradlib) | `323` | hacktoberfest | [Show filename in read_gamic_hdf5 error for non-GAMIC files](https://github.com/wradlib/wradlib/pull/803) |
-| [**gammapy/gammapy**](https://github.com/gammapy/gammapy) | `295` | astronomy | [Fix missing f-prefix in two error messages](https://github.com/gammapy/gammapy/pull/6918)<br/>[Fix to_dict() for big-endian arrays in four models](https://github.com/gammapy/gammapy/pull/6952) |
+| [**gammapy/gammapy**](https://github.com/gammapy/gammapy) | `296` | astronomy | [Fix missing f-prefix in two error messages](https://github.com/gammapy/gammapy/pull/6918)<br/>[Fix to_dict() for big-endian arrays in four models](https://github.com/gammapy/gammapy/pull/6952) |
 | [**openSUSE/opi**](https://github.com/openSUSE/opi) | `292` | cli | [Fetch file:// and $releasever gpgkeys correctly when asking to keep a key](https://github.com/openSUSE/opi/pull/227) |
 | [**apache/solr-operator**](https://github.com/apache/solr-operator) | `285` | aks | [Let a SolrCloud be deleted when its providedConfigMap is gone](https://github.com/apache/solr-operator/pull/888) |
 | [**scikit-hep/uproot**](https://github.com/scikit-hep/uproot) | `274` | analysis | [Handle negative and out-of-range indexes in TAxis.__getitem__](https://github.com/scikit-hep/uproot/pull/1765)<br/>[Write RNTuple data whose lists are all empty](https://github.com/scikit-hep/uproot/pull/1812)<br/>[Accept list and tuple bin edges in RooCurve.to_boost](https://github.com/scikit-hep/uproot/pull/1839) |
@@ -87,7 +88,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 103 PRs across 71 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, ardupilot…</summary>
+<summary><b>🕐 In review: 102 PRs across 70 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, ardupilot…</summary>
 
 <br/>
 
