@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [URL-encode Author.search and Work.search query parameters](https://github.com/internetarchive/openlibrary-client/pull/454) in **internetarchive/openlibrary-client** · 2026-11-22
+**Latest merge:** [Match relative patterns from the right in UPath.match](https://github.com/fsspec/universal_pathlib/pull/568) in **fsspec/universal_pathlib** · 2026-11-22
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -56,6 +56,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**holoviz/param**](https://github.com/holoviz/param) | `522` | attributes | [Use a class-level default set after the parameters were looked up](https://github.com/holoviz/param/pull/1219) |
 | [**internetarchive/openlibrary-client**](https://github.com/internetarchive/openlibrary-client) | `510` |  | [URL-encode Author.search and Work.search query parameters](https://github.com/internetarchive/openlibrary-client/pull/454) |
 | [**readthedocs/sphinx-autoapi**](https://github.com/readthedocs/sphinx-autoapi) | `497` |  | [Fix recursion when a nested class inherits from its enclosing class](https://github.com/readthedocs/sphinx-autoapi/pull/572)<br/>[Fix method signatures when self is positional-only or absent](https://github.com/readthedocs/sphinx-autoapi/pull/577) |
+| [**fsspec/universal_pathlib**](https://github.com/fsspec/universal_pathlib) | `416` | fsspec | [Match relative patterns from the right in UPath.match](https://github.com/fsspec/universal_pathlib/pull/568) |
 | [**fortran-lang/fortls**](https://github.com/fortran-lang/fortls) | `351` | fortls | [Handle mixed quotes in find_paren_match](https://github.com/fortran-lang/fortls/pull/569) |
 | [**wradlib/wradlib**](https://github.com/wradlib/wradlib) | `323` | hacktoberfest | [Show filename in read_gamic_hdf5 error for non-GAMIC files](https://github.com/wradlib/wradlib/pull/803) |
 | [**gammapy/gammapy**](https://github.com/gammapy/gammapy) | `296` | astronomy | [Fix missing f-prefix in two error messages](https://github.com/gammapy/gammapy/pull/6918)<br/>[Fix to_dict() for big-endian arrays in four models](https://github.com/gammapy/gammapy/pull/6952) |
@@ -88,7 +89,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 102 PRs across 70 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, ardupilot…</summary>
+<summary><b>🕐 In review: 100 PRs across 68 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, ardupilot…</summary>
 
 <br/>
 
