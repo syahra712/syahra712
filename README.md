@@ -48,7 +48,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**pytroll/satpy**](https://github.com/pytroll/satpy) | `1.2k` | closember | [Fix debug log message for repeated record classes in eps_l1b reader](https://github.com/pytroll/satpy/pull/3506) |
 | [**apache/iceberg-python**](https://github.com/apache/iceberg-python) | `1.2k` | apache | [Preserve null maps when projecting a map of structs](https://github.com/apache/iceberg-python/pull/4118) |
 | [**guessit-io/guessit**](https://github.com/guessit-io/guessit) | `952` | filename | [Detect HDR10+](https://github.com/guessit-io/guessit/pull/972)<br/>[Keep every dot of an abbreviation that starts the title](https://github.com/guessit-io/guessit/pull/995) |
-| [**ArduPilot/pymavlink**](https://github.com/ArduPilot/pymavlink) | `744` |  | [Mavwp: keep legacy rally file altitude in metres](https://github.com/ArduPilot/pymavlink/pull/1316) |
+| [**ArduPilot/pymavlink**](https://github.com/ArduPilot/pymavlink) | `745` |  | [Mavwp: keep legacy rally file altitude in metres](https://github.com/ArduPilot/pymavlink/pull/1316) |
 | [**SciTools/iris**](https://github.com/SciTools/iris) | `729` | data analysis | [Show the offending object in CubeList non-cube error](https://github.com/SciTools/iris/pull/7348)<br/>[Return the datum's inverse flattening from GeogCS](https://github.com/SciTools/iris/pull/7355) |
 | [**datalad/datalad**](https://github.com/datalad/datalad) | `680` | closember | [Close the reader pipe at EOF so an abandoned result generator does not leak FDs](https://github.com/datalad/datalad/pull/7971)<br/>[LineSplitter: do not split a CRLF that arrives in two chunks](https://github.com/datalad/datalad/pull/7989)<br/>[Ensure_list_from_str: drop empty items, so a multi-line url_re no longer matches every URL](https://github.com/datalad/datalad/pull/7995)<br/>[Json_py.load: honor compressed when re-reading for fixups](https://github.com/datalad/datalad/pull/8000)<br/>[EnsureBool: accept bytes labels as documented](https://github.com/datalad/datalad/pull/7998) |
 | [**pymc-devs/pytensor**](https://github.com/pymc-devs/pytensor) | `655` | ai | [Index 0-d MakeVector inputs instead of calling .item() in numba](https://github.com/pymc-devs/pytensor/pull/2503)<br/>[Propagate NaN in median like numpy](https://github.com/pymc-devs/pytensor/pull/2695) |
@@ -66,7 +66,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**scikit-hep/uproot**](https://github.com/scikit-hep/uproot) | `274` | analysis | [Handle negative and out-of-range indexes in TAxis.__getitem__](https://github.com/scikit-hep/uproot/pull/1765)<br/>[Write RNTuple data whose lists are all empty](https://github.com/scikit-hep/uproot/pull/1812)<br/>[Accept list and tuple bin edges in RooCurve.to_boost](https://github.com/scikit-hep/uproot/pull/1839) |
 | [**StingraySoftware/stingray**](https://github.com/StingraySoftware/stingray) | `229` | astronomy | [Fix gti __all__ entry and accept list GTIs in get_btis](https://github.com/StingraySoftware/stingray/pull/991)<br/>[Fix vertical hue lines and ref_angle in power-color state labels](https://github.com/StingraySoftware/stingray/pull/999)<br/>[Keep fractional counts when rebinning integer data](https://github.com/StingraySoftware/stingray/pull/1007)<br/>[Fix integrate_power_in_frequency_range for a range inside one bin](https://github.com/StingraySoftware/stingray/pull/1012)<br/>[Fix nearest_power_of_two returning the wrong power of two](https://github.com/StingraySoftware/stingray/pull/1030)<br/>[Accept dt as the bin width in create_gti_from_condition](https://github.com/StingraySoftware/stingray/pull/1032)<br/>[Fix p_to_f truncating frequencies for integer periods](https://github.com/StingraySoftware/stingray/pull/1033)<br/>[Fix split_gtis_by_exposure when no gap exceeds new_interval_if_gti_sep](https://github.com/StingraySoftware/stingray/pull/1034)<br/>[Fix shift_and_add reading past the spectrum when nbins is wider than it](https://github.com/StingraySoftware/stingray/pull/1031) |
 | [**python-quantities/python-quantities**](https://github.com/python-quantities/python-quantities) | `220` |  | [Keep units in np.ptp with NumPy 2](https://github.com/python-quantities/python-quantities/pull/281)<br/>[Honour axis and out in Quantity.nanmax, nanmin, nanargmax and nanargmin](https://github.com/python-quantities/python-quantities/pull/294) |
-| [**neurostuff/NiMARE**](https://github.com/neurostuff/NiMARE) | `216` | meta analysis | [Keep the right-hand image basepath in Studyset.merge](https://github.com/neurostuff/NiMARE/pull/1182) |
+| [**neurostuff/NiMARE**](https://github.com/neurostuff/NiMARE) | `217` | meta analysis | [Keep the right-hand image basepath in Studyset.merge](https://github.com/neurostuff/NiMARE/pull/1182) |
 | [**theochem/iodata**](https://github.com/theochem/iodata) | `175` | computational biology | [Keep MOL2 atomic charges when a status bit follows them](https://github.com/theochem/iodata/pull/410)<br/>[Compare MWFN electron counts with a tolerance](https://github.com/theochem/iodata/pull/432) |
 | [**getmail6/getmail6**](https://github.com/getmail6/getmail6) | `174` |  | [#277: malformed POP3 UIDL/LIST aborts only the affected account](https://github.com/getmail6/getmail6/pull/284)<br/>[#281: clear IMAP mailbox state when EXPUNGE fails in close_mailbox](https://github.com/getmail6/getmail6/pull/290)<br/>[Multidrop IMAP: keep an encoded envelope header as one text value](https://github.com/getmail6/getmail6/pull/292)<br/>[Report malformed tuple settings as configuration errors](https://github.com/getmail6/getmail6/pull/293)<br/>[Use an absolute uid_cache file name instead of ignoring it](https://github.com/getmail6/getmail6/pull/294)<br/>[Parse IMAP LIST responses with a NIL delimiter or mixed-case flags](https://github.com/getmail6/getmail6/pull/295)<br/>[Don't crash when a filter or MDA writes non-UTF-8 text to stderr](https://github.com/getmail6/getmail6/pull/296)<br/>[Reject ssl_fingerprints that are not hex](https://github.com/getmail6/getmail6/pull/297) |
 | [**scikit-hep/particle**](https://github.com/scikit-hep/particle) | `168` | analysis | [R-parity of squarks and sleptons](https://github.com/scikit-hep/particle/pull/811)<br/>[Format negative values in str_with_unc](https://github.com/scikit-hep/particle/pull/827) |
@@ -90,24 +90,24 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 98 PRs across 67 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, ardupilot…</summary>
+<summary><b>🕐 In review: 106 PRs across 73 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, ardupilot…</summary>
 
 <br/>
 
 | Project | ⭐ | Fix |
 |---|:--:|---|
 | [microsoft/markitdown](https://github.com/microsoft/markitdown/pull/2302) | `199k` | Refactor ImageConverter to reuse llm_caption helper |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0/pull/7001) | `69k` | Dispatch add_embeddings on actual signature |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0/pull/7001) | `70k` | Dispatch add_embeddings on actual signature |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm/pull/45952) | `64k` | Route GPT-5.4+ function-tool calls through the Responses API |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI/pull/8040) | `61k` | Opt-in deferred tool loading via Responses tool search |
 | [agno-agi/agno](https://github.com/agno-agi/agno/pull/9596) | `43k` | Chain exception causes in tool, model, and vectordb error paths |
 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy/pull/10227) | `39k` | Add sort_keys=True to tool call/result JSON serialization |
 | [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot/pull/34806) | `16k` | Tools: param_unpack.py: support param.pck files with defaults |
+| [sshuttle/sshuttle](https://github.com/sshuttle/sshuttle/pull/1348) | `14k` | Keep hostname case when a port is given with -r |
 | [pyro-ppl/pyro](https://github.com/pyro-ppl/pyro/pull/3500) | `9.1k` | Restore deep_getattr in pyro.infer.autoguide.utils |
 | [arrow-py/arrow](https://github.com/arrow-py/arrow/pull/1391) | `9.1k` | Use calendar months for humanize month and quarter granularity |
 | [marshmallow-code/marshmallow](https://github.com/marshmallow-code/marshmallow/pull/3073) | `7.2k` | Reject leading/trailing hyphen in the last domain label in validate.Email |
 | [containers/podman-compose](https://github.com/containers/podman-compose/pull/1581) | `6.3k` | Support passing --scale multiple times |
-| [skorch-dev/skorch](https://github.com/skorch-dev/skorch/pull/1175) | `6.2k` | Restore best score in PassthroughScoring when continuing training |
 
 <sub>[See every open PR →](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20author%3Asyahra712%20-user%3Aahnaf-lab%20-user%3Asyahra712)</sub>
 
