@@ -23,7 +23,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 ## 🔧 Merged upstream
 
 <!-- latest starts -->
-**Latest merge:** [Geonames: keep place names that contain a comma whole in terms queries](https://github.com/apache/solr-orbit-workloads/pull/25) in **apache/solr-orbit-workloads** · 2026-11-26
+**Latest merge:** [Keep hostname case when a port is given with -r](https://github.com/sshuttle/sshuttle/pull/1348) in **sshuttle/sshuttle** · 2026-11-27
 <!-- latest ends -->
 
 <!-- merged starts -->
@@ -32,7 +32,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [**docling-project/docling**](https://github.com/docling-project/docling) | `71k` | document AI · VLMs | [Coerce MLX bfloat16 logprobs to float in VlmPredictionToken](https://github.com/docling-project/docling/pull/4005) |
 | [**BerriAI/litellm**](https://github.com/BerriAI/litellm) | `64k` | LLM gateway · billing | [Don't retire a completed batch from cost recovery while output_file_id is lagging](https://github.com/BerriAI/litellm/pull/37715) |
 | [**nltk/nltk**](https://github.com/nltk/nltk) | `15k` | machine learning | [Fix bare raise outside except block in sem.util.root_semrep](https://github.com/nltk/nltk/pull/3997)<br/>[Fix NameError in UndirectedTypeRaise.can_combine](https://github.com/nltk/nltk/pull/3999)<br/>[Replace Python 2 protocol methods and stale names that Python 3 never reaches](https://github.com/nltk/nltk/pull/4021) |
-| [**sshuttle/sshuttle**](https://github.com/sshuttle/sshuttle) | `14k` | networking · firewalls | [pf exclusions ignored under a wider include since rules became quick](https://github.com/sshuttle/sshuttle/pull/1270)<br/>[Skip hostwatch when the server has no os.fork](https://github.com/sshuttle/sshuttle/pull/1271)<br/>[Keep the tunnel up when a DNS or UDP reply cannot be sent](https://github.com/sshuttle/sshuttle/pull/1273)<br/>[Drop the zone id of a link-local nameserver from nft rules](https://github.com/sshuttle/sshuttle/pull/1272)<br/>[Reject an out-of-range --listen port with a clear error](https://github.com/sshuttle/sshuttle/pull/1312)<br/>[Report an invalid --listen value as a usage error](https://github.com/sshuttle/sshuttle/pull/1313)<br/>[Reject --tmark values that are not plain hex](https://github.com/sshuttle/sshuttle/pull/1314)<br/>[Match an IPv6 nameserver with /128, not /32](https://github.com/sshuttle/sshuttle/pull/1323)<br/>[Accept one-character namespace names and segments](https://github.com/sshuttle/sshuttle/pull/1322)<br/>[Report an invalid --remote port as a fatal error](https://github.com/sshuttle/sshuttle/pull/1320)<br/>[Ignore blank lines and indented comments in config files](https://github.com/sshuttle/sshuttle/pull/1319)<br/>[Set up a family that has nameservers but no subnets](https://github.com/sshuttle/sshuttle/pull/1321)<br/>[Don't add IPv6 auto nets when there is no IPv6 listener](https://github.com/sshuttle/sshuttle/pull/1325)<br/>[Ignore non-ASCII bytes in netstat output in hostwatch](https://github.com/sshuttle/sshuttle/pull/1338)<br/>[Ignore non-ASCII host names in hostwatch](https://github.com/sshuttle/sshuttle/pull/1339) |
+| [**sshuttle/sshuttle**](https://github.com/sshuttle/sshuttle) | `14k` | networking · firewalls | [pf exclusions ignored under a wider include since rules became quick](https://github.com/sshuttle/sshuttle/pull/1270)<br/>[Skip hostwatch when the server has no os.fork](https://github.com/sshuttle/sshuttle/pull/1271)<br/>[Keep the tunnel up when a DNS or UDP reply cannot be sent](https://github.com/sshuttle/sshuttle/pull/1273)<br/>[Drop the zone id of a link-local nameserver from nft rules](https://github.com/sshuttle/sshuttle/pull/1272)<br/>[Reject an out-of-range --listen port with a clear error](https://github.com/sshuttle/sshuttle/pull/1312)<br/>[Report an invalid --listen value as a usage error](https://github.com/sshuttle/sshuttle/pull/1313)<br/>[Reject --tmark values that are not plain hex](https://github.com/sshuttle/sshuttle/pull/1314)<br/>[Match an IPv6 nameserver with /128, not /32](https://github.com/sshuttle/sshuttle/pull/1323)<br/>[Accept one-character namespace names and segments](https://github.com/sshuttle/sshuttle/pull/1322)<br/>[Report an invalid --remote port as a fatal error](https://github.com/sshuttle/sshuttle/pull/1320)<br/>[Ignore blank lines and indented comments in config files](https://github.com/sshuttle/sshuttle/pull/1319)<br/>[Set up a family that has nameservers but no subnets](https://github.com/sshuttle/sshuttle/pull/1321)<br/>[Don't add IPv6 auto nets when there is no IPv6 listener](https://github.com/sshuttle/sshuttle/pull/1325)<br/>[Ignore non-ASCII bytes in netstat output in hostwatch](https://github.com/sshuttle/sshuttle/pull/1338)<br/>[Ignore non-ASCII host names in hostwatch](https://github.com/sshuttle/sshuttle/pull/1339)<br/>[Keep hostname case when a port is given with -r](https://github.com/sshuttle/sshuttle/pull/1348) |
 | [**biopython/biopython**](https://github.com/biopython/biopython) | `5.3k` | bioinformatics | [Fix unformatted placeholder in double complement error message](https://github.com/biopython/biopython/pull/5393) |
 | [**tox-dev/tox**](https://github.com/tox-dev/tox) | `4k` | Python test tooling | [Keep the packaging backend captured with --no-capture](https://github.com/tox-dev/tox/pull/4164)<br/>[Keep --no-index when an index URL follows it](https://github.com/tox-dev/tox/pull/4187)<br/>[Round durations before splitting into units](https://github.com/tox-dev/tox/pull/4420)<br/>[Read pypy-3.10 as one factor next to other factors](https://github.com/tox-dev/tox/pull/4404) |
 | [**pyro-ppl/numpyro**](https://github.com/pyro-ppl/numpyro) | `2.8k` | bayesian inference | [Parse JAX_ENABLE_X64 as a boolean string in enable_x64](https://github.com/pyro-ppl/numpyro/pull/2394) |
@@ -90,7 +90,7 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 
 <!-- review starts -->
 <details>
-<summary><b>🕐 In review: 106 PRs across 73 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, ardupilot…</summary>
+<summary><b>🕐 In review: 104 PRs across 71 projects</b>, including markitdown, mem0, litellm, crewAI, agno, dspy, ardupilot…</summary>
 
 <br/>
 
@@ -103,11 +103,11 @@ I build **RAG systems, LLM agents and data pipelines**, and I fix bugs in the op
 | [agno-agi/agno](https://github.com/agno-agi/agno/pull/9596) | `43k` | Chain exception causes in tool, model, and vectordb error paths |
 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy/pull/10227) | `39k` | Add sort_keys=True to tool call/result JSON serialization |
 | [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot/pull/34806) | `16k` | Tools: param_unpack.py: support param.pck files with defaults |
-| [sshuttle/sshuttle](https://github.com/sshuttle/sshuttle/pull/1348) | `14k` | Keep hostname case when a port is given with -r |
 | [pyro-ppl/pyro](https://github.com/pyro-ppl/pyro/pull/3500) | `9.1k` | Restore deep_getattr in pyro.infer.autoguide.utils |
 | [arrow-py/arrow](https://github.com/arrow-py/arrow/pull/1391) | `9.1k` | Use calendar months for humanize month and quarter granularity |
 | [marshmallow-code/marshmallow](https://github.com/marshmallow-code/marshmallow/pull/3073) | `7.2k` | Reject leading/trailing hyphen in the last domain label in validate.Email |
 | [containers/podman-compose](https://github.com/containers/podman-compose/pull/1581) | `6.3k` | Support passing --scale multiple times |
+| [skorch-dev/skorch](https://github.com/skorch-dev/skorch/pull/1175) | `6.2k` | Restore best score in PassthroughScoring when continuing training |
 
 <sub>[See every open PR →](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20author%3Asyahra712%20-user%3Aahnaf-lab%20-user%3Asyahra712)</sub>
 
